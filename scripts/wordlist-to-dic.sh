@@ -6,7 +6,8 @@ if [[ -z "$1" || "${1##*.}" != 'txt' ]]; then
 fi
 
 # Ensure that wordlist has unique entries.
-words=$(cat "$1" | sort -u)
+# words=$(cat "$1" | sort -u)
+words=$(sort -fu "$1")
 word_ct=$(echo "$words" | wc -l)
 echo "$word_ct" > wordlist.dic
 echo "$words" >> wordlist.dic
