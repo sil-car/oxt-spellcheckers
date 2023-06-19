@@ -20,7 +20,6 @@ if not input_arg.is_dir():
 else:
     dir = input_arg
 
-# find "${dir}/documents" -maxdepth 1 -type f -exec grep -Eo '\w+' {} \; | grep -v '^[0-9]' | sort -fu
 words = set()
 for child in dir.iterdir():
     if child.is_dir():
