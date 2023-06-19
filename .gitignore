@@ -1,5 +1,8 @@
-# Ignore proprietary files.
+# Proprietary files
 */documents/originals/
+
+# LibreOffice lock files
+.~lock.*#
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
