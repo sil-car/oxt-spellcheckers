@@ -10,7 +10,7 @@ REF:
 ### Using an OXT extension.
 
 1. Download OXT file to your computer.
-1. Install in LibreOffice using Extension Manager.
+1. Install in LibreOffice using "Tools" > "Extension Manager..."; select downloaded OXT file.
 1. Set document language (e.g. "Sango") to use/test spell checker.
 
 ### Creating an OXT extension.
