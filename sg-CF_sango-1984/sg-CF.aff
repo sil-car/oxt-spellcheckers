@@ -1,25 +1,34 @@
-
 SET UTF-8
 
-IGNORE -
+# IGNORE -
 
 ICONV 14
-ICONV à à
-ICONV â â
-ICONV ä ä
-ICONV ç ç
-ICONV è è
-ICONV é é
-ICONV ê ê
-ICONV ë ë
-ICONV î î
-ICONV ï ï
-ICONV ô ô
-ICONV ö ö
-ICONV û û
-ICONV ü ü
+ICONV à à
+ICONV â â
+ICONV ä ä
+ICONV ç ç
+ICONV è è
+ICONV é é
+ICONV ê ê
+ICONV ë ë
+ICONV î î
+ICONV ï ï
+ICONV ô ô
+ICONV ö ö
+ICONV û û
+ICONV ü ü
 
-PFX A N 3
-PFX A   0  a    [^aeiou]
-PFX A   0  â    [^aeiou]
-PFX A   0  a-   [aeiou]
+# allow interchangeable l/r
+# REP 2
+# REP l r
+# REP r l
+
+# nouns (plural)
+PFX A N 2
+PFX A   0  â  [^aeiou]
+PFX A   0  â- [aeiou]
+
+# verbs with noun subjects
+PFX B N 2
+PFX B   0  a  [^aeiou]
+PFX B   0  a- [aeiou]

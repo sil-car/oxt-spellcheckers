@@ -18,6 +18,11 @@ name=$(basename "$aff_dir")
 langtag=$(echo "$name" | awk -F'_' '{print $1}')
 lang=$(echo "$name" | awk -F'_' '{print $2}')
 
+if [[ ! -r "${langtag}.aff" ]]; then
+    echo "Error: File not found: ${langtag}.aff"
+    exit 1
+fi
+
 makeoxt \
     -d "${langtag}.aff" \
     -l "$lang" \

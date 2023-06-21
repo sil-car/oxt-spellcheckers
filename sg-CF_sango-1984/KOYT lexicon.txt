@@ -9,7 +9,7 @@ afirimëe	Noun
 Afrîka	Noun
 agîngî	Noun
 ahön	Adverb
-ahön ndönî	Adjective Adverb
+ahön ndönî	Adverb Adjective
 akâ	Noun
 âkä !	Interjection
 akasiä	Noun
@@ -178,9 +178,9 @@ banda agi kûâ	Noun
 banda pête	Noun
 bânde	Noun
 bandêe	Verb
-bändëngö	Adjective Noun
-banga	Noun
+bändëngö	Noun Adjective
 bängâ	Noun
+banga	Noun
 bânga	Verb
 bängängö	Noun
 bangäpôrô	Noun
@@ -189,7 +189,7 @@ bängbïngö-yê	Noun
 bânge	Noun
 bängërëwä	Noun
 bangi	Noun
-bängö	Adjective Noun
+bängö	Noun Adjective
 bängö tënë	Noun
 bängö terê	Noun
 bängö-li	Noun
@@ -273,7 +273,7 @@ bengbä dongô tî këkë	Noun
 bengbä gbudu	Noun
 bengbä kâdâ	Noun
 bengbä-mê	Noun
-bëngö	Adjective Noun
+bëngö	Noun Adjective
 bênyämä	Noun
 bere	Verb
 bere terê	Verb
@@ -416,7 +416,7 @@ bränzä	Noun
 buä	Noun
 buäkodë	Noun
 buanga	Noun
-bübä	Adjective Noun
+bübä	Noun Adjective
 buba	Verb
 buba maseka wâlï	Verb
 buba ngo	Verb
@@ -428,7 +428,7 @@ bübängö-ngo	Noun
 bübängö-yâ	Noun
 bübängö-yê	Noun
 bûbü	Noun
-bûburû	Adjective Noun
+bûburû	Noun Adjective
 bugûgümbä	Adjective
 bûku	Noun
 bulëe	Noun
@@ -448,7 +448,7 @@ buruwïï	Noun
 bûta	Noun
 butöon	Noun
 butu	Noun
-butuma	Verb Adverb
+butuma	Adverb Verb
 bütümä-butuma	Adverb
 büzë	Noun
 buzïï	Noun
@@ -489,7 +489,7 @@ dambâgô	Noun
 dambâkaola	Noun
 dambârâtâ	Noun
 dämbëtï	Noun
-dandarä	Adjective Adverb
+dandarä	Adverb Adjective
 danditëe	Noun
 danga	Noun
 dangâlingâ	Noun
@@ -537,8 +537,8 @@ dênge	Verb
 dênge lê	Verb
 dênge mê	Verb
 dênge terê	Verb
-dëngëngö	Adjective Noun
-dëngö	Adjective Noun
+dëngëngö	Noun Adjective
+dëngö	Noun Adjective
 dëngö büzë	Noun
 dëngö gapa	Noun
 dëngö kîtë	Noun
@@ -588,7 +588,7 @@ dödö	Noun
 dödô	Verb
 dödörö	Noun
 dôdôya	Noun
-dogbo	Adjective Noun
+dogbo	Noun Adjective
 dogbo-longaya	Noun
 dogotöro	Noun
 dokpa	Adjective
@@ -602,8 +602,8 @@ dôn	Noun
 dôngbi	Verb
 döngbïngö	Noun
 dongi	Noun
-dongô	Adjective Noun
 döngö	Noun
+dongô	Noun Adjective
 döngö dê	Noun
 döngö dödô	Noun
 döngö sêse	Noun
@@ -621,7 +621,7 @@ dörököngö-zo	Noun
 doromäni	Noun
 döröngö	Noun
 dotîa	Noun
-dû	Adjective Noun
+dû	Noun Adjective
 du	Verb
 dü	Verb
 dü mvene	Verb
@@ -756,7 +756,7 @@ fîlîme	Noun
 filimêe	Verb
 fîmbo	Noun
 fïngö	Noun
-finî	Adjective Noun
+finî	Noun Adjective
 finî finî	Adverb
 finî môlengê	Noun
 finî sango	Noun
@@ -784,11 +784,11 @@ fü kä	Verb
 fufû	Noun
 fuku	Noun
 fün	Verb
-füngö	Adjective Noun
+füngö	Noun Adjective
 füngö-bongö	Noun
 füngö-kä	Noun
 fungulatëre	Noun
-fünngö	Adjective Noun
+fünngö	Noun Adjective
 fûru	Verb
 fûru zo	Verb
 fürüngö	Noun
@@ -798,7 +798,7 @@ fûta külä	Verb
 fütängö	Noun
 futîi	Verb
 fütïngö	Noun
-fûu	Adjective Noun
+fûu	Noun Adjective
 ga	Noun
 gä	Verb
 gä kötä	Verb
@@ -852,13 +852,13 @@ gbadera	Noun
 gbado	Noun
 gbadodo	Noun
 gbadôra	Noun
-gbägbä	Adjective Noun
+gbägbä	Noun Adjective
 gbagbâî	Noun
 gbägbängö	Adjective
-gbägbärä	Adjective Noun
+gbägbärä	Noun Adjective
 gbagbara	Noun Verb
 gbägbärängö	Adjective
-gbâgburu	Adjective Adverb
+gbâgburu	Adverb Adjective
 gbâkâ-gbaka	Adverb
 gbâkawâgbä	Noun
 gbakô	Noun
@@ -937,7 +937,7 @@ gbîan	Verb
 gbîanngbi	Verb
 gbigbi	Noun
 gbikï	Noun
-gbïngö	Adjective Noun
+gbïngö	Noun Adjective
 gbïngö kâî	Noun
 gbïngö pêrë	Noun
 gbïngö zo	Noun
@@ -949,14 +949,14 @@ gbo ngû	Verb
 gbogbo	Noun
 gbôgbôlinda	Noun
 gboklû	Noun
-gbôko	Adjective Noun
+gbôko	Noun Adjective
 gbôkolobô	Noun
 gbokome	Noun
 gbôkôrâ	Noun
 gbongô	Noun
 gböngö ngû	Noun
-gboô	Noun
 gböô	Noun
+gboô	Noun
 gbôo	Verb
 gbôpâla	Noun
 gbôto	Verb
@@ -1180,7 +1180,7 @@ hïnïngö	Noun
 hînön	Noun
 hîo	Adverb
 hôle	Verb
-hölëngö	Adjective Noun
+hölëngö	Noun Adjective
 hôlôlô	Adjective
 hömba	Noun
 hôn	Noun
@@ -1276,7 +1276,7 @@ kâi kobêla	Verb
 kâi kpô	Verb
 käïngö	Noun
 käïngö kobêla	Noun
-kâkâ	Adjective Adverb
+kâkâ	Adverb Adjective
 kâkâkâ	
 kakaradengbe	Noun
 kakaûka	Noun
@@ -1309,11 +1309,11 @@ kâmba tî turûngu	Noun
 kâmba tî yâ	Noun
 kâmbakä	Noun
 kâmbamênë	Noun
-kambîri	Adjective Noun
+kambîri	Noun Adjective
 kambisa	Noun
 kämbûsu	Noun
 kamême	Adverb
-kamënë	Adjective Noun
+kamënë	Noun Adjective
 kamïï	Noun
 kanäna	Noun
 kandâ	Noun
@@ -1333,15 +1333,15 @@ kangale	Noun
 kangali	Noun
 kangamë	Noun
 kângame	Noun
-kängängö	Adjective Noun
+kängängö	Noun Adjective
 kängängö bê	Noun
 kängängö lêge	Noun
 kängängö li	Noun
 kängärä	Noun
 kangaradia	Noun
 kangazâmba	Noun
-kangba	Adjective Noun
 kängbä	Noun
+kangba	Noun Adjective
 kângbi	Noun Verb
 kângbi terê	Verb
 kângbi vundü	Verb
@@ -1368,7 +1368,7 @@ kâra	Noun Verb
 kara	Verb
 kara ngbûgu	Noun
 kârâgorö	Noun
-karakânzi	Adjective Noun
+karakânzi	Noun Adjective
 kârâkö	Noun
 karambulëe	Noun
 kärängö	Adjective
@@ -1443,8 +1443,8 @@ kêrêwere	Noun
 kësë	Noun
 kêsêkësë	Noun
 keta	Noun
-kêtê	Adjective Noun Adverb
 kete	Noun
+kêtê	Noun Adverb Adjective
 kêtê ködörö	Noun
 kêtê kömändâ	Noun
 kêtê môlengê	Noun
@@ -1475,9 +1475,9 @@ kinîni	Noun
 kinîni ngbedede	Noun
 kïnngö	Noun
 kîo	Verb
-kïön	Adjective Noun
-kïön	Adjective Noun
-kïöngö	Adjective Noun
+kïön	Noun Adjective
+kïön	Noun Adjective
+kïöngö	Noun Adjective
 kipêe	Verb
 kïpëngö	Noun
 kiri	Noun
@@ -1488,7 +1488,7 @@ kîri na gbenî	Verb
 kîri na pekô	Verb
 kîri tënë	Verb
 kîri yângâ	Verb
-kîrîkiri	Adjective Noun Adverb
+kîrîkiri	Noun Adverb Adjective
 kïrïngö	Noun
 kïrïngö tënë	Noun
 kîrö	Noun
@@ -1546,7 +1546,7 @@ kokora	Noun
 kokôro	Noun
 kokôro	Noun
 kolêe	Verb
-kölëngö	Adjective Noun
+kölëngö	Noun Adjective
 kôlï	Noun
 koli	Noun
 kôlï na kôlï	Adverb
@@ -1600,8 +1600,8 @@ kongä	Noun
 konga	Verb
 kongba	Noun
 kongï	Noun
-kongö	Noun
 kôngô	Noun
+kongö	Noun
 köngö	Noun
 köngö käpä	Noun
 köngö lê tî kôbe	Noun
@@ -1632,14 +1632,14 @@ korôkongbä	Noun
 korôkorô	Noun
 kôrôkpo	Verb
 körömëngë	Noun
-köröngö	Adjective Noun
+köröngö	Noun Adjective
 kôrongû	Noun
 korôro	Noun
 körösôl	Noun
 kosêbo	Noun
 kôsö	Noun
-kötä	Adjective Noun
-kötä bê	Adjective Noun
+kötä	Noun Adjective
+kötä bê	Noun Adjective
 kötä bê tî kôbë	Noun
 kötä bokôo	Noun
 kötä dambëtï	Noun
@@ -1674,10 +1674,10 @@ kotomolängö	Noun
 kötöngö	Noun
 kotöon	Noun
 kôtshe	Noun
-kovöo	Adjective Noun
+kovöo	Noun Adjective
 kôya	Noun
 koyö	Noun
-kôzo	Adjective Adverb
+kôzo	Adverb Adjective
 kôzogbenyogbïä	Noun
 kôzonî	Adverb
 kozonyömö	Noun
@@ -1736,11 +1736,11 @@ kpënbgërë	Noun
 kpêne	Adjective
 kpêngba	
 kpêngba	
-kpëngbä	Adjective Noun
+kpëngbä	Noun Adjective
 kpêngba	Verb
 kpëngbä bê	Noun
-kpëngbängö	Adjective Noun
-kpëngö	Adjective Noun
+kpëngbängö	Noun Adjective
+kpëngö	Noun Adjective
 kpëngö lörö	Noun
 kpëngö zo	Noun
 kpënzü	Noun
@@ -1759,7 +1759,7 @@ kpëtîbiö	Noun
 kpëtîli	Noun
 kpîkara	Noun
 kplatîsho	Noun
-kpô	Adjective Adverb
+kpô	Adverb Adjective
 kpo	Verb
 kpo gobo	Verb
 kpo molongö	Verb
@@ -1817,7 +1817,7 @@ kubû	Noun
 kubûkua	Noun
 küdä	Noun
 kudubôon	Noun
-kûê	Adjective Adverb
+kûê	Adverb Adjective
 kuëtï	Noun
 kugbë	Noun
 kugbë tî kâsa	Noun
@@ -1863,9 +1863,9 @@ kûngbâ	Noun
 kûngbâ tî ngêrë	Noun
 kûngbâ tî pekô tî wâlïï	Noun
 kûngbi	Verb
-küngbïngö	Adjective Noun
+küngbïngö	Noun Adjective
 kunge	Noun
-küngö	Adjective Noun
+küngö	Noun Adjective
 küngö sörö	Noun
 kungû	Noun
 kûngûlûbä	Adjective
@@ -1914,11 +1914,11 @@ lafâi	Noun
 lafandema	Noun
 lägërëmä	Noun
 lâi	Noun
-lâkâtâ	Adjective Adverb
+lâkâtâ	Adverb Adjective
 lakërë	Noun
 lakerëe	Noun
 lakôro	Noun
-lakpängbä	Adjective Noun
+lakpängbä	Noun Adjective
 lâkûê	Adverb
 lâkûê lâkûê	Adverb
 lâkûê sô	Adverb
@@ -1930,8 +1930,8 @@ lämänängö	Noun
 lamânde	Noun
 lämätîsi	Noun
 lamba	Adjective
-lâmba	Adjective Noun
 lâmbâ	Noun
+lâmba	Noun Adjective
 lambôo	Noun
 lambu	Noun
 lamene	Verb
@@ -2014,7 +2014,7 @@ lêngüngü	Noun
 lênze	Noun
 lêre	Noun
 lesöon	Noun
-lesüä	Adjective Noun
+lesüä	Noun Adjective
 lesua	Verb
 letäa	Noun
 li	Noun
@@ -2084,7 +2084,7 @@ lôngbi lö	Verb
 lôngbi tënë	Verb
 löngbïngö	Noun
 löngbïngö tënë	Noun
-lôngbô	Adjective Noun Verb
+lôngbô	Noun Adjective Verb
 löngö	Adjective
 longo	Noun
 lônzi	Verb
@@ -2123,8 +2123,8 @@ lütï	Verb
 lütïngö	Noun
 lüzôle	Noun
 ma	Noun
+ma	Other Adverb Verb
 mä	Verb
-ma	Verb Adverb Other
 mä fîin	Verb
 mä na bê	Verb
 mä ndo	Verb
@@ -2252,10 +2252,10 @@ mbâgë na mbâgë	Adverb
 mbai	Noun
 mbäîwa	Noun
 mbâkêlê	Noun
-mbäkôro	Adjective Noun
+mbäkôro	Noun Adjective
 mbakpa	Noun
-mbamba	Noun
 mbambâ	Noun
+mbamba	Noun
 mbâmbalï	Noun
 mbambângû	Noun
 mbâmbanï	Noun
@@ -2284,7 +2284,7 @@ mbëngë	Noun
 mbengêne	Noun
 mbëngü	Noun
 mbëngu	Noun
-mbênî	Adjective Adverb
+mbênî	Adverb Adjective
 mbênî äpe	Adverb
 mbênî bîrï	Adverb
 mbênî kêkerêke	Adverb
@@ -2314,7 +2314,7 @@ mbîndä	Noun
 mbïngo	Noun
 mbïö	Noun
 mbipa	Noun
-mbîrîmbîrî	Adjective Adverb
+mbîrîmbîrî	Adverb Adjective
 mblâ	Noun
 mbö	Noun
 mbo	Noun
@@ -2322,7 +2322,7 @@ mbo tî ngonda	Noun
 mboatën	Noun
 mbokâ	Noun
 mbôko	Verb
-mbököngö	Adjective Noun
+mbököngö	Noun Adjective
 mbom	Noun
 mboma	Noun Verb
 mboma tî lê	Noun
@@ -2360,7 +2360,7 @@ mbua	Noun
 mbüä	Noun
 mbükâkä	Noun
 mbûki	Noun
-mbula	Adjective Noun
+mbula	Noun Adjective
 mbulango	Noun
 mbuli	Noun
 mbulu	Noun
@@ -2369,7 +2369,7 @@ mbülüngbä	Noun
 mbumbü	Noun
 mbumbuse	
 mbumbuse	Adjective
-mbündü	Adjective Noun
+mbündü	Noun Adjective
 mbünë	Noun
 mbupa	Noun
 mbûrü	Noun
@@ -2384,8 +2384,8 @@ mbutu, moyele	Noun
 mbûu	Noun
 mbûungâ	Noun
 mbûyû	Noun
+me	Connective Noun Verb
 mê	Noun
-me	Noun Connective Verb
 më	Verb
 më ngo	Verb
 mêä	Noun
@@ -2433,7 +2433,7 @@ mïmi	Adjective
 mimîi	Adjective
 mina	Verb
 minängö	Noun
-mîngi	Adjective Noun Adverb
+mîngi	Noun Adverb Adjective
 mîngi nî	Adverb
 mïngö	Noun
 mîngo	Verb
@@ -2442,8 +2442,8 @@ mini	Noun
 minimîni	Noun
 mino	Noun
 mînyerë	Noun
+mion	Adverb Verb
 mîon	Verb
-mion	Verb Adverb
 mïönngö	Noun
 mîro	Verb
 mïröngö	Noun
@@ -2476,7 +2476,7 @@ môko ndôngbâ	Noun
 môko sângôo	Noun
 mokobe	Noun
 môkömbilî	Noun
-mokondö	Adjective Noun
+mokondö	Noun Adjective
 mokönzi	Noun
 mokönzi-garâ	Noun
 mokönzi-gbätä	Noun
@@ -2609,7 +2609,7 @@ mve	Noun
 mve tî masûa	Noun
 mvele	Noun
 mvene	Noun
-mvenî	Adjective Noun Pronoun
+mvenî	Noun Pronoun Adjective
 mvesû	Noun
 mvitasïon	Noun
 mvönkëkë	Noun
@@ -2664,9 +2664,9 @@ na pekô	Adverb
 na pekô tî	Preposition
 na pöpö nî	Adverb
 na pöpö tî	Preposition
-na sê nî	Adjective Adverb
+na sê nî	Adverb Adjective
 na sê tî	Preposition
-na sêse	Adjective Adverb
+na sêse	Adverb Adjective
 na terê nî	Adverb
 na terê tî	Preposition
 na yâ nî	Adverb
@@ -2709,8 +2709,8 @@ ndânî	Noun
 ndânî nye	Adverb
 ndânî sô	Connective
 ndäpêrêrê	Noun
-ndârâ	Adjective Noun
 ndarä	Noun
+ndârâ	Noun Adjective
 ndârâkpû	Noun
 ndaramba	Noun
 ndârârâ	Adverb
@@ -2718,7 +2718,7 @@ ndâsêse	Noun
 ndâsû	Noun
 ndawo	Noun
 ndâyenga	Noun
-ndê	Adjective Adverb
+ndê	Adverb Adjective
 ndefi	Noun
 ndeke	Noun
 ndeke tî bâgara	Noun
@@ -2741,7 +2741,7 @@ ndêndïä	Noun
 ndënë	Noun
 ndêngê	Adjective
 ndêngê na ndêngê	Adjective
-ndepandäa	Adjective Noun
+ndepandäa	Noun Adjective
 nderere	Adverb
 ndewa	Noun
 ndiä	Noun
@@ -2780,7 +2780,7 @@ ndömbâ	Noun
 ndömbälê	Noun
 ndombe	Noun
 ndombö	Noun
-ndömö	Adjective Noun
+ndömö	Noun Adjective
 ndondöli	Noun
 ndonga	Noun
 ndöngâ	Noun
@@ -2804,12 +2804,12 @@ ndûkû	Noun
 ndûkûkôta	Noun
 ndûkunyâan	Noun
 ndûmbâ	Noun
-ndümbü	Adjective Noun
+ndümbü	Noun Adjective
 ndûnda	Noun
 ndüngö	Noun
-ndurü	Adjective Noun Adverb
 ndûru	Adjective Verb
 ndûrü	Noun
+ndurü	Noun Adverb Adjective
 ndurü na	Preposition
 ndurü ngbonga	Noun
 ndurü ngombe	Noun
@@ -2829,8 +2829,8 @@ nebärä	Noun
 neka	Verb
 nëkängö	Noun
 nëkängö-yê	Noun
-nenêe	Adjective Noun
-nëngö	Adjective Noun
+nenêe	Noun Adjective
+nëngö	Noun Adjective
 nëngö-zo	Noun
 nereka	Verb
 nërëkängö	Noun
@@ -2840,7 +2840,7 @@ ngâ tîtene… pëpe	Connective
 ngâ-osîi	Adverb
 ngâakô	Noun
 ngaängangü	Adverb
-ngâbôrô	Adjective Noun
+ngâbôrô	Noun Adjective
 ngadï	Noun
 ngâgö	Noun
 ngâgö tî âtörö	Noun
@@ -2854,12 +2854,12 @@ ngängä	Noun
 ngângângâ	Adverb
 ngangi	Noun
 ngangî mböndö	Noun
-ngangü	Adjective Noun Adverb
+ngangü	Noun Adverb Adjective
 ngâo	Noun
 ngäöngäö	Noun
 ngarä	Noun
-ngäsa	Noun
 ngäsâ	Noun
+ngäsa	Noun
 ngäsa tî ngonda	Noun
 ngäsangbaga	Noun
 ngäsëmä	Noun
@@ -2933,8 +2933,8 @@ ngböndöngö	Noun
 ngbonga	Noun
 ngbongbö	Noun
 ngböngbö	Noun
-ngbongbôro	Adjective Noun
 ngbongbörö	Noun
+ngbongbôro	Noun Adjective
 ngböngï	Noun
 ngböngô	Noun
 ngböngö	Noun
@@ -2965,7 +2965,7 @@ ngenge	Noun
 ngëngëlë	Adjective
 ngêngêrê	Adjective
 ngêngêrêngê	Adjective
-ngëngö	Adjective Noun
+ngëngö	Noun Adjective
 ngenyë	Noun
 ngënye	Noun
 ngenyö	Noun
@@ -3012,8 +3012,8 @@ ngôlö	Noun
 ngölö	Noun
 ngôlömosobe	Noun
 ngömä	Noun
-ngombe	Noun
 ngômbê	Noun
+ngombe	Noun
 ngômbê-kombo	Noun
 ngombï	Noun
 ngömbo	Adjective
@@ -3048,8 +3048,8 @@ ngoto	Noun
 ngowên	Noun
 ngoyä	Noun
 ngrözâ	Noun
-ngû	Noun
 ngu	Noun
+ngû	Noun
 ngû îngö	Noun
 ngû na ngû	Adverb
 ngû nzapä	Noun
@@ -3097,8 +3097,8 @@ ngürüngö	Noun
 ngusü	Noun
 ngûyângâ	Noun
 nguzü	Noun
-nî	Mark of ipseity Pronoun
-nï	Verb Pronoun
+nî	Pronoun Mark of ipseity
+nï	Pronoun Verb
 nî laâ	Preposition
 nî laâ sï	Adverb
 nïähô	Noun
@@ -3189,7 +3189,7 @@ nzënë	Noun
 nzêne ngbonga	Noun
 nzêne nzêne	Adjective
 nzênembôsï	Noun
-nzengê	Adjective Adverb
+nzengê	Adverb Adjective
 nzëngö	Noun
 nzenze	Noun
 nzêpêrê	Noun
@@ -3205,12 +3205,12 @@ nzêrerê	Noun
 nzetï	Noun
 nzï	Noun Verb
 nziä	Noun
-nzïä	Noun
 nzia	Noun
+nzïä	Noun
 nzibo	Noun
 nzîlângöngökpakpa	Noun
 nzilo	Noun
-nzîna	Adjective Noun Verb
+nzîna	Noun Adjective Verb
 nzïnängö	Noun
 nzïngä	Noun
 nzînga	Verb
@@ -3226,7 +3226,7 @@ nzombö	Noun
 nzömbö	Noun
 nzôngbô	Noun
 nzöngörö	Noun
-nzönî	Adjective Adverb
+nzönî	Adverb Adjective
 nzönî gängö	Noun
 nzönî kûê	Adjective
 nzöpäsä	Noun
@@ -3237,7 +3237,7 @@ oberzîne	Noun
 obu	Noun
 ôdô	Noun
 ôke	Adverb
-ôko	Adjective Adverb
+ôko	Adverb Adjective
 ôko äpe	Adverb
 ôko ôko	Adverb Pronoun
 ôkpô	Noun
@@ -3351,13 +3351,13 @@ patâ	Adjective
 pâta	Noun
 patapâta	Noun
 pätärä	Noun
-pâvoro	Adjective Noun
+pâvoro	Noun Adjective
 päwä	Noun
 päwä tî ngû	Noun
 pawüngö	Noun
 pâyö	Noun
-pë	Verb
 pe	Verb
+pë	Verb
 pêelëe	Noun
 pegerê	Noun
 pekë	Noun
@@ -3380,10 +3380,10 @@ pendâmbö	Noun
 pendângoi	Noun
 pendânzërë	Noun
 pendâsê	Noun
-pendere	Adjective Noun
+pendere	Noun Adjective
 pendo	Noun
-pëngö	Adjective Noun
-penze	Adjective Noun
+pëngö	Noun Adjective
+penze	Noun Adjective
 penzelö	Noun
 pënzëngbonga	Noun
 penzepa	Noun
@@ -3426,13 +3426,13 @@ pëtërëngö	Noun
 peya	Noun
 peyêe	Verb
 pëyëngö	Noun
-pia	Adjective Verb Adverb
+pia	Adverb Adjective Verb
 pialö	Noun
 pïämë	Noun
-pîdä	Adjective Noun
 pîdâ	Noun
+pîdä	Noun Adjective
 pîda	Verb
-pïdängö	Adjective Noun
+pïdängö	Noun Adjective
 piî	Adjective
 pîka	
 pika	Noun
@@ -3487,7 +3487,7 @@ pindi	Noun
 pïndïrï	Noun
 pïndïrï tî wâ	Noun
 pinîi	Verb
-pîri	Adjective Noun
+pîri	Noun Adjective
 piripîri	Noun
 pïrïwä	Noun
 pisä	Noun
@@ -3532,8 +3532,8 @@ ponö	Noun
 pönzö	Noun
 pôo	Verb
 pope	Noun
-popö	Adjective Noun
 pöpö	Noun
+popö	Noun Adjective
 pöpöhötö	Noun
 pöpöködörö	Noun
 popôto	Noun
@@ -3619,7 +3619,7 @@ säkä	Noun
 sâkârâkâ	Adjective
 sâkârâkâ-sakaraka	Adverb
 sakatômbo	Noun
-sâki	Adjective Noun
+sâki	Noun Adjective
 sâki otâ	Adjective
 sâkikilöo	Noun
 sâko	Noun
@@ -3639,7 +3639,7 @@ sämbängö	Noun
 sambêla	Noun Verb
 sämbëlängö	Noun
 sambia	Noun
-sân	Noun Preposition
+sân	Preposition Noun
 sân tîtene	Connective
 sänä	Noun
 sana	Verb
@@ -3737,7 +3737,7 @@ sâra yorö	Verb
 sâra zo pâsi	Verb
 saradîne	Noun
 sârânangkora	Noun
-särängö	Adjective Noun
+särängö	Noun Adjective
 särängö-bê-ôkô	Noun
 särängö-biando	Noun
 särängö-bôon	Noun
@@ -3801,7 +3801,7 @@ saterê	Noun
 savâa	Verb
 sävängö	Noun
 savöon	Noun
-sawâsi	Adjective Noun
+sawâsi	Noun Adjective
 sê	Noun
 se	Verb
 së	Verb
@@ -3853,11 +3853,11 @@ sene	Noun
 sêngbi	Noun Verb
 sêngbondö	Noun
 sêngê	
-sêngê	Adjective Adverb
+sêngê	Adverb Adjective
 sëngë	Noun
 senge	Verb
 sêngê sêngê	Adverb
-sëngö	Adjective Noun
+sëngö	Noun Adjective
 sëngö-terê	Noun
 sênî	Noun
 sênkpakpa	Noun
@@ -3882,7 +3882,7 @@ serêe Gbânzîrî	Noun
 serême	Noun
 sërôme	Noun
 sêse	Noun
-sesêe	Adjective Noun
+sesêe	Noun Adjective
 sesêe filëre	Noun
 sêsüngö	Noun
 sêtâ	Noun
@@ -3900,7 +3900,7 @@ shîiû	Noun
 shokoläa	Noun
 shûu	Noun
 sî	Connective
-sï	Connective Verb Adverb
+sï	Connective Adverb Verb
 sï gîgî	Verb
 sï sïngö	Verb
 siä	Adjective
@@ -3910,14 +3910,14 @@ sigête	Noun
 sïgî	Verb
 sïgïngö	Noun
 sîi	Noun
-sîin	Verb Adverb
+sîin	Adverb Verb
 simäa	Noun
 sindi	Noun
 sindimäa	Noun
 sinëmä	Noun
 singa	
 sînga	Noun
-singîla	Noun Interjection
+singîla	Interjection Noun
 sïngö	Noun
 sïngö-gîgî	Noun
 sïngôme	Noun
@@ -3925,7 +3925,7 @@ sïnngö	Noun
 sïnözîte	Noun
 sïökpärï	Noun
 sion	Noun
-sïönî	Adjective Adverb
+sïönî	Adverb Adjective
 sïönî bä	Noun
 sïönî bê	Noun
 sîrâ	Noun
@@ -3942,7 +3942,7 @@ sisongo	Noun
 sizôo	Noun
 sö	Noun Verb
 so	Verb
-sô [so]	Connective Verb Pronoun
+sô [so]	Connective Pronoun Verb
 sô [sɔ]	Verb
 so bê	Verb
 sô benda	Verb
@@ -3993,8 +3993,8 @@ sooro	Noun
 sopë	Noun
 sopo	Noun
 sore	Noun
-sorö	Adjective Noun
 sörö	Noun
+sorö	Noun Adjective
 soro	Noun Verb
 soronga	Verb
 söröngängö	Noun
@@ -4004,16 +4004,16 @@ sösö	Noun
 soso	Verb
 sosongo	Noun
 sösöngö	Noun
+su	Interjection Verb
 sû	Noun Verb
-su	Verb Interjection
 sû kpê	Verb
 süä	Noun
 sua	Verb
 sua	Verb
 süäli	Noun
 suali	Noun
-süängö	Adjective Noun
-sûî	Adjective Adverb
+süängö	Noun Adjective
+sûî	Adverb Adjective
 sukâni	Noun
 sûku	Verb
 sukûla	Verb
@@ -4058,7 +4058,7 @@ sûru bê	Verb
 sûru lê	Verb
 sûrûngbi	Verb
 sürüngbïngö	Noun
-sürüngö	Adjective Noun
+sürüngö	Noun Adjective
 sürüngö-zo	Noun
 susu	Noun
 susura	Verb
@@ -4070,7 +4070,7 @@ tâ	Noun
 tä	Verb
 tä gbûgbû	Verb
 tä ndembö	Verb
-taâ	Adjective Adverb
+taâ	Adverb Adjective
 taâle	Noun
 taângû	Noun
 taâtënë	Noun
@@ -4237,16 +4237,16 @@ têyombo	Noun
 tî	Connective Preposition
 tï	Noun
 tï	Verb
-tî âla	Adjective Pronoun
-tî ë	Adjective Pronoun
+tî âla	Pronoun Adjective
+tî ë	Pronoun Adjective
 tî lâ na lâ	Adjective
-tî lo	Adjective Pronoun
+tî lo	Pronoun Adjective
 tî löndö na	Preposition
 tî löndö na ngoi sô	Adverb
 tî löndö na… asï na	Preposition
 tï mbênî yê	Verb
-tî mbï	Adjective Pronoun
-tî mo	Adjective Pronoun
+tî mbï	Pronoun Adjective
+tî mo	Pronoun Adjective
 tï na lêgë	Verb
 tî nye	Pronoun
 tï zo	Verb
@@ -4256,7 +4256,7 @@ tîa	Verb
 tîâbëngë	Noun
 tiabïngï	Noun
 tïänâtë	Noun
-tïängö	Adjective Noun
+tïängö	Noun Adjective
 tîêma-konô	Noun
 tïföyîde	Noun
 tikîsa	Verb
@@ -4297,8 +4297,8 @@ tîtene	Connective
 titiri	Noun
 tiuko	Noun
 tö	
-tö	Adjective Noun Verb
 tô	Noun
+tö	Noun Adjective Verb
 to	Noun Verb
 tö mbëlä	Verb
 tö mböngö	Verb
@@ -4350,8 +4350,8 @@ tôngbi	Verb
 töngbïngö	Noun
 tôngbö	Noun
 töngbö	Noun
-töngö	Adjective Noun
 tongo	Noun
+töngö	Noun Adjective
 töngö-mbëlä	Noun
 töngö-mböngö	Noun
 töngö-ndâ	Noun
@@ -4366,8 +4366,8 @@ tono	Verb
 tönöngö	Noun
 toô	Noun
 toô kokpî	Noun
-topa	Noun
 töpa	Noun
+topa	Noun
 tope	Noun
 torô	Noun
 törö	Noun
@@ -4409,9 +4409,9 @@ tukulu	Noun
 tüküngö	Noun
 tüküngö ngo	Noun
 tüküngö-ngûlê	Noun
-tulä	Adjective Noun
+tulä	Noun Adjective
 tula	Verb
-tülängö	Adjective Noun
+tülängö	Noun Adjective
 tule	Noun
 tülütë	Noun
 tumba	Verb
@@ -4450,8 +4450,8 @@ uga	Noun
 ümvü	Noun
 ûnzû	Noun
 ûse	
-va	Adjective Adverb
 vâ	Adverb
+va	Adverb Adjective
 vaä	Noun
 vâkâ	Adjective
 vaka	Noun
@@ -4471,7 +4471,7 @@ venge	Noun
 vêre	Noun
 vi	Noun
 vidoli	Noun
-vîi	Verb Adverb
+vîi	Adverb Verb
 vîi pekô	Verb
 vïngö	Noun
 vïngö-pekô	Noun
@@ -4502,7 +4502,7 @@ vü	Verb
 vukö	Adjective
 vûko	Verb
 vukö lê	Noun
-vüköngö	Adjective Noun
+vüköngö	Noun Adjective
 vüköngö-ndö	Noun
 vulä	Noun
 vula	Verb
@@ -4513,16 +4513,16 @@ vümä	Noun
 vundü	Noun
 vûnga	Verb
 vungbö	Noun
-vüngö	Adjective Noun
-vurü	Adjective Noun
+vüngö	Noun Adjective
+vurü	Noun Adjective
 vuru	Verb
 vurü makâko	Noun
 vuru yâ tî tënë	Verb
-vürüngö	Adjective Noun
+vürüngö	Noun Adjective
 vürüngö yâ tî tënë	Noun
 vuvu	Noun
-wâ	Adjective Noun
-wa	Adjective Noun Verb
+wâ	Noun Adjective
+wa	Noun Adjective Verb
 wâ tî dädä	Noun
 wa tî kûâ	Noun
 wâ tî zâbolo	Noun
@@ -4670,7 +4670,7 @@ wängö	Noun
 wängö-bê	Noun
 wangombï	Noun
 wangunu	Noun
-wanguru	Mark of ipseity Noun
+wanguru	Noun Mark of ipseity
 wanyïpande	Noun
 wanyôgbïä	Noun
 wanzângo	Noun
@@ -4790,7 +4790,7 @@ wo terê	Verb
 wögbïä	Noun
 wôko	Verb
 wôkôbôlô	Adjective
-wököngö	Adjective Noun
+wököngö	Noun Adjective
 wököngö-küä	Noun
 wokoso	Verb
 wökösöngö	Noun
@@ -4798,7 +4798,7 @@ woli	Noun
 wôlîkemâne	Noun
 wombö	Noun
 wömüä	Noun
-wöngö	Adjective Noun
+wöngö	Noun Adjective
 wöngö-bê	Noun
 wöngö-li	Noun
 wöngö-terê	Noun
@@ -4806,7 +4806,7 @@ wôo	Verb
 wôotï	Verb
 woro	Adjective
 wororo	Adjective
-wötïngö	Adjective Noun
+wötïngö	Noun Adjective
 wôtoro	Noun
 woyâ	Noun
 woza	Verb
@@ -4820,8 +4820,8 @@ wu li	Verb
 wu ponö	Verb
 wu terê	Verb
 wûku	Verb
-wüküngö	Adjective Noun
-wüngö	Adjective Noun
+wüküngö	Noun Adjective
+wüngö	Noun Adjective
 wüngö-bê	Noun
 wüngö-ïrï	Noun
 wüngö-li	Noun
@@ -4830,8 +4830,8 @@ wüngö-terê	Noun
 würü	Noun
 wûrûrû	Noun
 wûrûwûrû	Noun
-wûsûwusu	Adjective Noun
-wûyâwuya	Adjective Noun
+wûsûwusu	Noun Adjective
+wûyâwuya	Noun Adjective
 yâ	Noun
 ya	Verb
 yâ tî gbägbä	Noun
@@ -4844,13 +4844,13 @@ yagbïä	Noun
 yâgë	Noun
 yäkä	Noun
 yakepaka	Noun
-yakêrê	Adjective Adverb
+yakêrê	Adverb Adjective
 yakêrêsa	Noun
 yakôo	Noun
 yälängä	Noun
 yalö	Noun
+yamba	Adverb Verb
 yämbä	Noun
-yamba	Verb Adverb
 yamba na	Preposition
 yämbägerê	Noun
 yämbängö	Noun
@@ -4874,8 +4874,8 @@ yangba	Noun
 yangbato	Noun
 yângbö	Noun
 yângbö tî gbïä	Noun
-yängö	Adjective Noun
 yangö	Noun
+yängö	Noun Adjective
 yapü	Noun
 yâpu	Verb
 yäpüngö	Adjective
@@ -4906,12 +4906,12 @@ yê tî ngangü	Noun
 yê tî pendere	Noun
 yê tî vundü	Noun
 yêda	Verb
-yêgbâ	Adjective Noun
 yêgbâ	Noun
+yêgbâ	Noun Adjective
 yegema	Verb
 yëgëmängö	Noun
 yêka	Verb
-yeke	Verb Adverb
+yeke	Adverb Verb
 yeke na	Verb
 yeke na kobêla	Verb
 yeke sêngê	Verb
@@ -4930,7 +4930,7 @@ yêngbi	Verb
 yëngbïngö	Noun
 yëngbïngö-terê	Noun
 yenge	Verb
-yëngëngö	Adjective Noun
+yëngëngö	Noun Adjective
 yëngëngö-ndo	Noun
 yëngërë	Noun
 yengere	Noun Verb
@@ -4959,8 +4959,8 @@ yïndängö	Noun
 yïndü	Noun
 yîngi	Verb
 yîngi gbânda	Verb
-yîngô	Noun
 yingö	Noun
+yîngô	Noun
 yingö	Verb
 Yingö-Gbïä	Noun
 Yingö-Vürü	Noun
@@ -4980,11 +4980,11 @@ yombe	Noun
 yömbö	Noun
 yongba	Noun Verb
 yöngbängö	Noun
-yöngö	Adjective Noun
 yongo	Noun
 yongö	Noun
+yöngö	Noun Adjective
 yöngö-ndo	Noun
-yongôro	Adjective Noun
+yongôro	Noun Adjective
 yongôro-ngombe	Noun
 yorö	Noun
 yôro	Verb
@@ -4995,13 +4995,13 @@ yôro tiyöo	Verb
 yoröbörö	Noun
 yöröki	Noun
 yorönden	Noun
-yöröngö	Adjective Noun
+yöröngö	Noun Adjective
 yöröngö-tiyöo	Noun
 yorönzïä	Noun
-yorôrô	Adjective Adverb
-yoyä	Adjective Noun
+yorôrô	Adverb Adjective
+yoyä	Noun Adjective
 yoya	Verb
-yöyängö	Adjective Noun
+yöyängö	Noun Adjective
 yoyo	Noun
 yû	Verb
 yü	Verb
@@ -5014,7 +5014,7 @@ yuru	Verb
 yûru	Verb
 yuru gbikï	Verb
 yuru mênë	Verb
-yürüngö	Adjective Noun
+yürüngö	Noun Adjective
 zä	
 zä	Verb
 za	Verb
@@ -5027,7 +5027,7 @@ zäbülängängö	Noun
 zäbülängö	Noun
 zâka	Noun
 zâkâ-zaka	Adjective
-zakara	Adjective Noun Verb Adverb
+zakara	Noun Adverb Adjective Verb
 zakara tënë	Verb
 zäkärängö	Noun
 zäkärängö-tënë	Noun
@@ -5042,9 +5042,9 @@ Zâmani	Noun
 zamba	Noun
 zambala	Noun
 zamêe	Adverb
-zängö	Adjective Noun
+zängö	Noun Adjective
 zängö-yângâ	Noun
-zarä	Adjective Noun
+zarä	Noun Adjective
 zâra	Verb
 zaragîna	Noun
 zaranga	Noun
@@ -5078,7 +5078,7 @@ zênde	Noun
 zëndë	Noun
 zëndo	Noun
 zêne	Verb
-zënëngö	Adjective Noun
+zënëngö	Noun Adjective
 zêngba	Verb
 zëngbängö	Noun
 zëngö	Noun
@@ -5213,8 +5213,8 @@ zonäa	Noun
 zonga	Verb
 zöngängö	Noun
 zongbo	Noun
-zöngö	Adjective Noun
 zöngö	Noun
+zöngö	Noun Adjective
 zönngö	Noun
 zôon	Verb
 zorôgo	Noun

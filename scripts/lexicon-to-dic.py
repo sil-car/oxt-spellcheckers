@@ -10,6 +10,9 @@ from tools import sango_sort
 
 
 def main():
+    if len(sys.argv) < 2:
+        print("Error: Need lexicon file.")
+        exit(1)
     infile = Path(sys.argv[1])
     if not infile.is_file():
         print(f"Error: File not found: {infile}")
@@ -23,8 +26,18 @@ def main():
         words, ps = ll.split('\t')
         wd1 = words.split(' ')[0]
         line_text = f"{wd1}"
-        if any(p in ps for p in ('Noun', 'Verb')):
-            line_text+="/A"
+
+        # Add affix markers to entries.
+        affixes = []
+        if 'Noun' in ps:
+            affixes.append("A")
+        if 'Verb' in ps:
+            affixes.append("B")
+        if len(affixes) > 0:
+            string = '/'
+            for a in affixes:
+                string += a
+            line_text += string
         dic_lines.append(line_text)
 
     dic_lines = sango_sort(list(set(dic_lines)))

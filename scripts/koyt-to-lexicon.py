@@ -92,6 +92,9 @@ class KoytEntry(Entry):
 
 
 def main():
+    if len(sys.argv) < 2:
+        print("Error: No input file given.")
+        exit(1)
     koyt_lexicon_file = Path(sys.argv[1])
     with koyt_lexicon_file.open(encoding="utf-8-sig") as f:
         koyt_lines = f.readlines()
