@@ -6,8 +6,8 @@
 
 ### sango-1984-20230619
 
-- [+] potentially overly-permissive 'a-' prefix: no differentiation between pluralization and verbs with noun subjects
-  - [+] a- before a verb should be â-
-  - [+] a- before a noun should be a-
-- [+] fix TRY suggestions to suggest different tone markings
-- [+] suggest alternate spellings for r/l: sara/sala
+- [x] potentially overly-permissive 'a-' prefix: no differentiation between pluralization and verbs with noun subjects
+  - [x] a- before a verb should be â-
+  - [x] a- before a noun should be a-
+- [x] fix TRY suggestions to suggest different tone markings
+- [x] suggest alternate spellings for r/l: sara/sala
