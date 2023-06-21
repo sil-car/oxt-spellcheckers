@@ -28,14 +28,16 @@ def main():
         line_text = f"{wd1}"
 
         # Add affix markers to entries.
-        affixes = []
+        affixes = set()
+        if 'Adjective' in ps:
+            affixes.add("A") # plural prefix
         if 'Noun' in ps:
-            affixes.append("A")
+            affixes.add("A") # plural prefix
         if 'Verb' in ps:
-            affixes.append("B")
+            affixes.add("B") # noun-subject prefix
         if len(affixes) > 0:
             string = '/'
-            for a in affixes:
+            for a in sorted(list(affixes)):
                 string += a
             line_text += string
         dic_lines.append(line_text)

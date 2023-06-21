@@ -18,12 +18,21 @@ ICONV ö ö
 ICONV û û
 ICONV ü ü
 
-# allow interchangeable l/r
-# REP 2
-# REP l r
-# REP r l
+TRY naîtgâkeösêbdäolmôyëïûiruzfpBwüNSvÂADGMWLYFhKHIPTÛZ
 
-# nouns (plural)
+MAP 5
+MAP aäâAÄÂ
+MAP eëêEËÊ
+MAP iïîIÏÎ
+MAP oöôOÖÔ
+MAP uüûUÜÛ
+
+# suggest l/r replacement
+REP 2
+REP l r
+REP r l
+
+# nouns (plural) TODO: What about adjectives?
 PFX A N 2
 PFX A   0  â  [^aeiou]
 PFX A   0  â- [aeiou]
