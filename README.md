@@ -2,7 +2,7 @@
 
 ### Downloads
 
-[Sango](sg-CF_sango-1984/dict-sango-1984-20230621_lo.oxt)
+[Sango spellchecker](sg-CF_sango-1984/dict-sango-1984-20230621_lo.oxt)
 
 ### Using an OXT extension.
 
