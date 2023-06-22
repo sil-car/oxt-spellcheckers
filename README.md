@@ -2,7 +2,7 @@
 
 ### Downloads
 
-[Sango spellchecker](sg-CF_sango-1984/dict-sango-1984-20230621_lo.oxt)
+[Sango spellchecker](https://github.com/sil-car/oxt-spellcheckers/raw/main/sg-CF_sango-1984/dict-sango-1984-20230621_lo.oxt)
 
 ### Using an OXT extension.
 
