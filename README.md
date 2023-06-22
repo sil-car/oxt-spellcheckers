@@ -1,16 +1,30 @@
-## Spellcheck extensions for LibreOffice (OXT)
+# Spellcheck extensions for LibreOffice (OXT)
 
-### Downloads
+## Downloads
 
-[Sango spellchecker](https://github.com/sil-car/oxt-spellcheckers/raw/main/sg-CF_sango-1984/dict-sango-1984-20230621_lo.oxt)
+[Sango spellchecker OXT file](https://github.com/sil-car/oxt-spellcheckers/raw/main/sg-CF_sango-1984/dict-sango-1984-20230621_lo.oxt)
 
-### Using an OXT extension.
+## Using an OXT extension.
 
-1. Download OXT file to your computer.
-1. Install in LibreOffice using "Tools" > "Extension Manager..."; select downloaded OXT file.
-1. Set document language (e.g. "Sango") to use/test spell checker.
+1. Download the above OXT file to your computer.
+1. Install/Open your document in LibreOffice.  
+![no Sango](data/2023-06-22_002.png)  
+1. Install the extension in LibreOffice using "Tools" > "Extension Manager..."  
+![](data/2023-06-22_003.png)  
+1. Click "Add" button.  
+![](data/2023-06-22_004.png)  
+1. Select downloaded OXT file.  
+![](data/2023-06-22_005.png)  
+![](data/2023-06-22_006.png)  
+![](data/2023-06-22_007.png)  
+1. Restart LibreOffice.  
+![](data/2023-06-22_008.png)  
+1. Set document language (e.g. "Sango") to use new spell checker using "Tools" > "Language" > "For the whole text" > "Sango" (or maybe via "More..." if "Sango" doesn't appear there).  
+![](data/2023-06-22_009.png)  
+![](data/2023-06-22_010.png)  
 
-### Creating an OXT extension.
+
+## Creating an OXT extension.
 
 1. Prepare basic lexicon file.
    1. Convert original lexicon(s) to plaintext or LIFT files.
@@ -29,7 +43,7 @@
 1. Create DIC and AFF files.
 1. Run `aff-dic-to-oxt.sh` to create OXT module.
 
-### References
+## References
 
 - https://github.com/silnrsi/oxttools/blob/master/docs/USAGE.md
 - https://www.systutorials.com/docs/linux/man/4-hunspell/
