@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import regex as re
+import sys
 import unicodedata
 import unidecode
 
@@ -40,6 +41,9 @@ def key_from_value(dict, value):
 
 def generate_sorted_set_output(in_set):
     return '\n'.join(sorted(list(in_set), key=str.lower))
+
+def eprint(*a):
+    print(*a, file=sys.stderr)
 
 def print_sorted_set(in_set):
     print(generate_sorted_set_output(in_set))
