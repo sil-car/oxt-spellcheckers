@@ -13,6 +13,7 @@ import unidecode
 from pathlib import Path
 
 from tools import Entry
+from tools import eprint
 from tools import key_from_value
 from tools import Lexicon
 from tools import sango_sort
@@ -78,7 +79,7 @@ class KoytEntry(Entry):
                     if k:
                         self.parts_of_speech.add(k)
                     else:
-                        print(f"No corresponding Part of Speech for \"{p}\"")
+                        eprint(f"No corresponding Part of Speech for \"{p}\"")
 
         for l in self.input_lines:
             if not ':' in l:
@@ -93,7 +94,7 @@ class KoytEntry(Entry):
 
 def main():
     if len(sys.argv) < 2:
-        print("Error: No input file given.")
+        eprint("Error: No input file given.")
         exit(1)
     koyt_lexicon_file = Path(sys.argv[1])
     with koyt_lexicon_file.open(encoding="utf-8-sig") as f:
@@ -116,9 +117,10 @@ def main():
     # Add final entry.
     lexicon.entries.add(KoytEntry(entry_lines))
     
-    outdir = koyt_lexicon_file.parents[2]
-    outfile = outdir / "KOYT lexicon.txt"
-    outfile.write_text(lexicon.get_output_text())
+    # outdir = koyt_lexicon_file.parents[2]
+    # outfile = outdir / "KOYT lexicon.txt"
+    # outfile.write_text(lexicon.get_output_text())
+    print(lexicon.get_output_text())
 
 
 if __name__ == '__main__':
