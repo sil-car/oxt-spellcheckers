@@ -7,7 +7,7 @@
 ## Using an OXT extension.
 
 1. Download the above OXT file to your computer.
-1. Install/Open your document in LibreOffice.  
+1. Open LibreOffice (can be installed from https://www.libreoffice.org/download/download-libreoffice/).  
 ![no Sango](data/2023-06-22_002.png)  
 1. Install the extension in LibreOffice using "Tools" > "Extension Manager..."  
 ![](data/2023-06-22_003.png)  
