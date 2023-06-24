@@ -1,0 +1,860 @@
+bâalê: réfléchi.
+bakarî : dictionnaire.
+bêmëngä: central.
+böbötö : synecdoque.
+bûkundâlö : glossaire.
+ 
+da bê da : notez bien.
+dambâgô: luette.
+dambâlö tî mbenze : expansion objectale.
+dambâlö tî yânî : expansion conjointe.
+dambâlö yêngbö : expansion circonstancielle.
+damëngä : palais.
+dë kpälë : prédiquer.
+dë sêkuagbê : conjuguer.
+dëngö-kpälë; sêkpälë : prédication.
+didä: associatif.
+dïnä : diacritique.
+dïngö-gerêsû : épellation.
+dîripa anaphore.
+dôli gbe tî: être un peu plus ouvert que.
+dôli ndö tî: être un peu plus fermé que.
+dôli pekô tî : être un peu plus reculé que.
+dôngôngbi : subordination.
+dü : générer (des règles).
+dûgô: larynx.
+
+dûkûrû : mi-fermé.
+dûkûrû pendâgô : voyelle mi-fermée.
+fayêda : métaphore.
+finîpa : néologisme.
+fïnngö : vibrant.
+fö: moyen, central.
+fö pendâgô : voyelle moyenne.
+fötätë : composant.
+ 
+ga: opposé.
+ganagësi: prostposé.
+ganahüzü : préposé.
+ganapa: rnétorique.
+gapa: antonyme.
+gâpô: ouvert.
+gbâkâ gerêgô: archiphonème.
+gbâmbupa : lexique.
+gbë söngö : être en rapport avec (pour des énoncés).
+gbegbêe : dépendant.
+gbegbêe pendâsombere: dérivé figé.
+gbegbêe pomälê: morphème dépendant.
+gbegôtënë : intonation.
+gbêkoi : syntaxe.
+gbelêwärä : post-glottalisé.
+gbelî: passif (voix).
+gbënë : détermination.
+
+gbene : déterminer.
+gbênga : articulation; articuler.
+gbëngbïngö : liaison.
+gbîan : traduire; transformer.
+gbïänngö-sêgô : ton modulé.
+gbïänngö-yâgbê: changement structural.
+gbïänngö-yângâ : traduction.
+gbô: constituer.
+gbôtombö : aspiré(e).
+gerêgô: phonème.
+gerêgütënë : monème.
+gerêmbëtï : lettre (de l'alphabet).
+gerêsêgô: tonème.
+gerêsû: graphème.
+gësi: arrière (en).
+gô: voix.
+guaka : espacé.
+guaka dambâlö : expansion adjointe.
+guefö : centralisė,
+guehüzü : antéposé; avancé.
+guehüzü pendâgô : voyelle avancée.
+guendâ: reculé.
+guendâ pendâgô : voyelle reculée.
+gugë: apposition; juxtaposition.
+gugëlö : asyndète.
+gümbä: translatif (aspect).
+güpa: syllabe.
+gutätë : composant.
+
+gütënë: base lexicale.
+hänä: emphase.
+hënë: accent.
+hôlôlô surägbê : paradigme ouvert.
+hônga : injonction; obligation.
+hûnda : interrogation; question.
+hûnda tî mbîrîmbîrî : interrogation directe.
+hûnda tî perengû : interrogation indirecte.
+hüzü: antécédent.
+ 
+irä : apostrophe (figure du rhétorique).
+ïrïto: pseudonyme.
+îtäpa: synonyme.
+
+kaköpa : signifiant.
+kambisä : thèse.
+kanza : arborescence.
+kanzalêgô : source sonore.
+kanzapa ; corpus.
+kanzapa sû: corpus écrit.
+kanzapa yângâ : corpus oral.
+kanzasû : source écrite.
+kârâ: occlusif.
+karagbikï: aposiopèse.
+
+këngbïngö : dissimilation.
+kengêre : prospectif, supposition.
+kerebende pendâgô: voyelle arrondie.
+kîrida : répétition.
+kïröngö : analyse.
+kiröngö ndïäyângâ: analyse grammaticale.
+kïröngö yagbê: analyse structurale.
+kîtîa : apostrophe (signe diacritique).
+kodefinîpa : néologie.
+kodëpa : style.
+kodëpa perengû : style indirect.
+kodëyângâ : technique du langage.
+kondï: concave.
+kôzo sêhängö-yângâ : premier degré d'aperture.
+kpäkë : non pertinent.
+kpäkpä: tableau (de classement).
+kpâlê: morphe.
+kpälë : prédicat.
+kpälë tî palî: prédicat verbal.
+kpälë tî pandôo : prédicat nominal.
+kpâlêîtä : allomorphe.
+kpapa : paronyme.
+kpapendâgô : semi-voyelle.
+kpëkpesë : imminent.
+kpendä : résumé.
+kpengu : ponctuel (ton).
+kpengü sêgô : ton ponctuel.
+kpondânî: point final.
+
+kpöngö-gbelî : passivation.
+kpöngö-pa (ngôbo) : indicatif (mode).
+kpû: axe.
+kpû tî penzegbê: axe syntagmatique.
+kpû tî surägbê; axe paradigmatique.
+kpûkângbi : tiret.
+kpûtënë, kpûlö : chaîne parlée.
+kpûtêngbi : trait d'union.
+kundüpa : vocabulaire.
+kûne ûse zo : deuxième personne du singulier.
+kuni: conjoint.
+kunifö : infixe.
+kunigësi : suffixe.
+kunigësi gbelî: suffixe passif.
+kunigësi sängö-yê: suffixe causatif.
+kunihüzü : affixe; préfixe.
+kuru: catégorie.
+kürü : intransitif.
+kürü palî : verbe intransitif.
+kûyû : direct.
+
+lafabëe : alphabet.
+lambulö : paraphrase.
+lengbe : désinence.
+lengbe lipandôo : désinence du nominatif.
+lengbe sêirä : désinence du vocatif.
+lengbe sêkuba : désinence du génitif.
+lengbe sêlingö : désinence de l'ilatif.
+
+lengbe sêmbenze : désinence de l'accusatif.
+lengbe sênô: désinence de l'altatif.
+lengbe sêsurä: désinence de l'ablatif.
+lengbe tisä : désinence du datif.
+lêpa: forme (d'un mot).
+li: composant régisseur.
+ligbâlö : paragraphe.
+ligerêsû : siglaison.
+ligugë : apposé.
+likî : point.
+likî otâ : trois points de suspension.
+likî tonga: point d'exclamation.
+likî ûse : deux points.
+likî yangö : point d'interrogation.
+likî zigo : point virgule.
+likî-ûse : double point.
+likpûlö : prépositif.
+likuba : complėté.
+limëngä : apex.
+lindïsû : note.
+lindöngâ : région prépalatale.
+lïngö : action.
+linô: genre; personne.
+linô gatï : genre féminin.
+linô kötï: genre masculin.
+linô sêmîngi: genre multiple.
+linô waâwa : genre indéterminé; genre neutre.
+
+lipandôo : nominatif.
+lipenze: premier terme d'un syntagme; terme régissant d'un
+	syntagme.
+
+lisûndâ: qualifié.
+litätë: élément extérieur régissant de la composition.
+liûse: duel.
+lö : parole.
+lobo: relâché.
+lobo pendâgô: voyelle relâchée.
+lömbëtï: texte.
+lomboma tënë: commenter.
+löngbïngö : étiré.
+löngbïngö pendâgô : voyelle étirée.
+löngö-nzänzärä : barre droite ( | ).
+ 
+mäda: succession; série.
+mäda tî palî: série verbale (verbe de série).
+mba: régir.
+mbasêlî: adverbe.
+mbasêlî kodë : adverbe de manière.
+mbasêlî ndo : adverbe de lieu.
+mbasêlî patënë : constituant adverbial,
+mbasêlî tângo : adverbe de temps.
+mbasêlî wüngö : adverbe de quantité.
+mbatäna : radical.
+mbenze: complément.
+mbenze dambâlö : complément en syntaxe.
+mbenze kûyû, mbenze boro: complément d'objet direct.
+
+mbenze perengû : complément d'objet indirect.
+mbenze tî kpöngö-sêyê : complément déterminatif.
+mbenzeyêngbö : complément circonstancie!.
+mbenzeyêngbö tî fûta : complément circonstanciel de conséquence.
+mbenzeyêngbö tî kodë : complément circonstanciel de manière.
+mbenzeyêngbö tî ndâ : complément circonstanciel de cause.
+mbenzeyêngbö tî ndo : complément cìrconstanciel de lieu.
+mbenzeyêngbö tî ngêrë : complément circonstanciel de prix.
+mbenzeyêngbö tî pö: complément circonstanciel de but.
+mbenzeyêngbö tî sêsopë : complément circonstanciel de condition.
+mbenzeyêngbö tî tângo : complément circonstanciel de temps.
+mbenzeyêngbö tî wandölî: complément d'agent.
+mbenzeyêngbö tî yêkuya : complément circonstanciel d'instrument.
+mbenzeyêngbö tî yêngbö : complément circonstanciel de concession.
+mbu: classe.
+mbulandâ : trait sémantique.
+mbulandâ tî lipandôo : cas du nominatif.
+mbulandâ tî sêdidä : cas du comitatif.
+mbulandâ tî sêgümbä : cas du translatif.
+mbulandâ tî sêirä ; cas du vocatif.
+mbulandâ tî sêkondî: cas de l'inessif.
+mbulandâ tî sêkpalê : cas de l'essif.
+mbulandâ tî sêkuba : cas du génitif.
+mbulandâ tî sêkûyû : cas de l'abessif.
+mbulandâ tî sêlingö : cas de l'illatif.
+mbulandâ tî sêmbenze : cas de l'accusatif.
+mbulandâ tî sêndöbê : cas de l'adessif.
+mbulandâ tî sêsïgî?: cas de l'élatif.
+
+mbulandâ tî sêsurä : cas de l'ablatif.
+mbulandâ tî sêtïsä : cas du bénéfactif; cas du donatif.
+mbulandâ tî sêyêkua : cas de l'instrumental.
+mbulandâ tî tïsä cas du datif.
+mbulango: modalité.
+mbulango tî palî: modalité verbale.
+mbulango tî pandôo: modalité nominale.
+mbulê : aspect.
+mbulê hônga : aspect d'obligation.
+mbulê kpëkpesë : aspect de l'imminent.
+mbulê sêkpalê : aspect de l'essif.
+mbulê sêndôbê : aspect addessif.
+mbulê sêngbâda : aspect de l'imperfectif.
+mbulê sêpândäpandôo : aspect de l'ergatif.
+mbulê sêpongä : aspect de l'inceptif.
+mbulê sêtisä : aspect du bénéfactif.
+mbulê sêwëngö aspect de l'accompli.
+mbulê tî guakangoi : aspect (du) périodique.
+mbulê tî kpälë : aspect d'un prédicat.
+mbulê tî kuandïä : aspect obligatif.
+mbulê tî penzongoi : aspect synchronique.
+mbuiê tî petapö : aspect projectif.
+mbulê tî sambêla : aspect injonctif.
+mbulê tî sängö-yê: aspect du causatif.
+mbulê tî sêgbelî: voix passive.
+mbulê tî sêhënë : aspect emphatique.
+mbulê tî sêndölî: voix active.
+mbulê tî sênïngängö : aspect duratif.
+
+mbulê tî sênô: aspect progressif.
+mbulê tî sêtorôrô : aspect itératif.
+mbulê tî wëngö : aspect du perectif,
+mbumbülê : trait descriptif.
+mbumbülê tî sêbakarî : trait lexical.
+mbumbülê tî sêndâgô : trait phonétique.
+mbumbüsê: trait définitoire.
+mbupa: mot.
+mënëngö : assimilation.
+mëngä : langue (comme organe).
+mëngö: accent inflexe.
+mëngö: montant.
+mëngö sêgô : ton montant.
+mîlö: nexus.
+mïnängö : élision.
+mitä güpa : syllabe fermée.
+mitä surägbê : paradigme fermé.
+molongö : ordre; rang.
+mozën : calque.
+münändâ: contenu.
+münäpa : signifié.
+mvön: augment.
+
+ndâgô : pharynx.
+ndâgugë : apposant.
+ndâkuba : complétant.
+ndâlimëngä : pré-dorsal.
+
+ndâlö : solution.
+ndâmëngä : post-dorsal.
+ndângâ: voile du palais.
+ndânzërë: guillemets.
+ndâpenze: dernier terme d'un syntagme.
+ndârâ: tendu.
+ndârâ pendâgô : voyelle tendue.
+ndâsêhôn : prénasalité.
+ndâtätë : élément final de la composition.
+ndewa : onomatopée.
+ndïä: règle.
+ndïäyângâ : grammaire.
+ndömbâ : coordination.
+ndömëngä : dorsal.
+ndundü patënë : constituant immédiat.
+ndundûu: immédiat.
+ndurü sêgiri : passé proche.
+ndurü sêndën : futur proche.
+ndurüsû : abréviation.
+ngbônga pande : proposition principale.
+ngbôngalö : phrase.
+ngbôngalö dëpa : phrase déclarative.
+ngbôngalö hûnda: phrase interrogative.
+ngbôngalö hûnda-sïrïngö : phrase interro-négative.
+ngbôngalö ke: phrase négative.
+ngbôngalö ndângbâ: phrase minimale.
+ngbôngalö ngemä phrase exclamative.
+ngbôngalö sêngê : phrase simple.
+
+ngbôngalö tate : phrase composée.
+ngbôngalö yêda: phrase affirmative.
+ngbötisä : bénéfactif.
+ngê: aigu (voix, ton}; haut (voix, ton).
+ngêlisê: infinitif.
+ngêlisê tî palî: infinitif du verbe.
+ngëmä : interjection.
+ngëngërë, koi, balë ;: indépendant.
+ngêrêrê: ultra-aigu; ultra-haut.
+ngêrêrê penzegô : intonème ultra-aigu.
+ngigë: partitif.
+ngîkilê : parenthèse.
+ngôbo : mode.
+ngôbo tî hônga : mode injonctif.
+ngôbo tî kengêre : mode hypothétique; mode prospectif.
+ngôbo tî kpälë : mode de prédicat.
+ngôbo tî kpöngöpa : mode indicatif.
+ngôbo tî ngêlisê: mode infinitif.
+ngôbo tî përëngö-ndo : mode impératif.
+ngôbo tî sêkpöngöpa : mode affectif.
+ngôbo tî sêsopë : mode conditionnel.
+ngôbo tî zïängö-lêgë: mode permissif.
+ngôbo tî zîasï: mode subjonctif.
+nyïpalî : auxiliaire.
+nyïpalî mbulango : auxiliaire de modalité verbale.
+nyipalî mbulê: auxiliaire aspectuel.
+nzângo: crochet f].
+nzänzärä: barre.
+
+nzawe : accolade {.
+nzerë: caractéristique.
+
+paköngö : idéophone.
+palî: — verbe.
+palî patënë : constituant verbal.
+palî polïpa : verbe pronominal.
+palî pönzö : particule verbale; verbe fonctionnalisé ~ particule verbale.
+palî tî mäda: verbe de série.
+palî tî mbenze: verbe transitif, verbe transitif à complément obligatoire
+	ou à expansion conjointe.
+palî tî tukepö : verbe convertible.
+pândäpandôo : ergatif.
+pandë : norme.
+pande : proposition; énoncé.
+pandë kpälë : type de prédicat.
+pandë tî yâgbê : modèle structural.
+pandegugë : proposition juxtaposée.
+pandekuba : proposition relative.
+pandekuni : proposition coordonnée.
+pandemäda : proposition(s) d'une série.
+pandembenze : proposition complétive {objectale).
+pandengbö: proposition circonstancielle,
+pandengbö ndo: proposition circonstancielle de lieu.
+pandengbö ngoi: proposition circonstancielle de temps.
+pandengêli : proposition indépendante.
+pandengêlisê: proposition infinitive.
+pandetïängö : proposition elliptique.
+
+pandeva : proposition subordonnée.
+pandewânga : proposition insertive.
+pandewängänä : proposition emboĵtée.
+pandeyêbê : proposition optatique.
+pandôo : nominal; substantif.
+pandôo gatï: nom férminin.
+pandôo kötï: nom masculin.
+pandôo patënë : constituant nominal,
+pandôo pönzö : nominal fonctionnalisé.
+pangändä: hypallage.
+papûtu: tautologie.
+pasûndâ : adjectif.
+pasûndâ hûnda: adjectif interrogatif.
+pasûndâ kambisa: adjectif démonstratif.
+pasûndâ molongö : adjectif numéral ordinal.
+pasûndâ nzerë : adjectif qualificatif.
+pasûndâ patënë : constituant adjectival.
+pasûndâ wärängö : adjectif possessif.
+pasûndâ wâwa : adjectif indéfini.
+pasûndâ wüngö: adjectif numéral cardinal.
+patâ: chuchoté; sourd.
+pëlï: marque distinctive.
+pendâgô : voyelle.
+pendâgô tî bêmëngä: voyelle centrate.
+pendâgô tî gësi : voyelle postérieure.
+pendâgô tî guefönî : voyelle cenñtralisée.
+pendâgô tî hüzü : voyelle antérieure; voyelle d'avant~ voyelle
+	anténeure.
+
+pendâgô tî ndâmëngä : voyelle d'arrière.
+pendâgô tî pîtôtô : voyelle fermée.
+pendâgô tî sêhôn : voyelle nasale.
+pendâgô tî sêyângâ : voyelle orale.
+pendâgüpa : influence (de la syllabe).
+pendâmbö : consonne.,
+pendâmbö fïnngö : consonne vibrante.
+pendâmbö gönngö : consonne sonore.
+pendâmbö kârâ: consonne occlusive.
+pendâmbö patâ consonne sourde.
+pendâmbö pëngö : consonne battue.
+pendâmbö sêhôn : consonne nasale.
+pendâmbö sêyângâ : consonne orale.
+pendâmbö tî ndâsêhôn : consonne pré-nasalisée.
+pendâmbö tîtambö : consonne fricative.
+pondângoi : périodique.
+pondângoi : temporel.
+pendâsêgbegô : kymogramme.
+pendâsêgô : schéma tonal.
+pendâsombere : dérivation.
+pendâsopë : conditionnel.
+pendâtätë : influence ( rêėsultat soumis à une composition).
+penzegbê: syntagme.
+penzegbê gugë : syntagme appositif.
+penzegbê häkängö-yê: syntagme comparatif.
+penzegbê ïrïngö-yê : syntagme énumératif.
+penzegbê kängbïngö-yê : syntagme distributif.
+penzegbe kpöngö-sêyê : syntagme de détermination.
+
+penzegbê kuba : syntagme complétif, d'annexion; syntagme
+	d'annexion. ;
+penzegbê ndömbâ : syntagme coordinatif.
+penzegbê palî: syntagme verbal.
+penzegbê pandôo : syntagme nominal.
+penzegô : intonème.
+penzegô tî gbenî: intonème grave.
+penzegô tî ndüzü : intonème aigü.
+penzegô wapendâgô: intonème vocalisé.
+penzeligbâlö : alinéa.
+penzelö : locution; élocution.
+penzelö tî palî: locution verbale.
+penzelö tî pandôo : locution nominale.
+penzelö tî pomä: locution morphématique (par ext locution
+	prépositionnelle ou postpositionnelle).
+penzelö tî tägësi : locution postpositionnelle.
+penzelö tî tähüzü : locution prépositionnelle.
+penzengoi : diachronie.
+penzeyëkä : allitération.
+penzongoi : synchronie.
+përëngö-ndo : impératif (mode).
+pîtôtô, mitä : fermé.
+pö : but.
+polï: substitutif.
+polïpa : pronom.
+polïpa fängö-yê : pronom démonstratif.
+polïpa hûnda : pronom interrogatif.
+polïpa patënë : constituant pronominal.
+
+polïpa wärängö : pronom possessif,
+polïpa wâwa : pronom indéfini.
+polïpa zo: pronom personnel.
+polïpayekä : pronom-référent.
+pomä: morphème.
+pomäkpälë : prédicatif.
+pomändâ : article.
+pomändâ sêgbënë : article défini.
+pomändâ sêwaâwa : article indéfini.
+pomäpa: morphème (opposé à lexème).
+pomätätë : morphème de composition.
+pönzö : particule.
+popö: signe,
+pôsâ: vide.
+pôsâgapa : litote.
+pôsâmbulê : absolutif.
+pösätângo : aoriste.
+
+sambêla : subjonctif.
+sängö-yê: causatif.
+satënë : forme.
+sê: fonction.
+sêbakarî : lexical.
+sêdambâlö : expansivité.
+sêdidä : association.
+sêdïrïngö : fréquence; récurrence.
+
+sêdïrïngö : répétition.
+sêdîripa : anaphorisme.
+sêdongo : classification, classement.
+sêdongo tî âgerêgô : classement des phonèmes.
+sêdûmbö: laryngalité.
+sêfïnngö : vibration.
+sêga: opposition.
+sêgâpô: ouverture.
+sêgbâda : imperfectif.
+sêgbândä: avenir.
+sêgbânda : inaccompli.
+sêgbegô : registre.
+sêgbêkoi : syntaxe particulière.
+sêgerêsû: graphisme.
+sêgiri : passé.
+sêgiri tî kpöngöpa: passé de l'indicatif.
+sêgiri tî torôrô : imparfait.
+sêgô: ton.
+sêgô tî fönî: ton moyen.
+sêgô tî gbenî : ton bas (ton grave).
+sêgô tî ndönî : ton haut (ton aigu).
+sêgônda : superlatif.
+sêgônda tî kuba : superlatif relatif.
+sêgônda tî ndüzü : superlatif absolu.
+sêgönngö (tî pendâmbö) : sonorité (d'une consonne).
+sêgümbä: translativité.
+sêgüpa : syllabicité.
+sêhângö-yângâ : aperture.
+
+sêhängö-yângâ : degré d'aperture.
+sêhënë: emphatique.
+sêhôn : nasalité.
+sêirä: vocatif.
+sêkângbi: distribution.
+sêkârâ : degré d'occlusion.
+sêkârâgô: occlusion.
+sêkodëpa : stylistique.
+sêkondî: inessif.
+sêkpalê: essif.
+sêkpâlêtôngbi: variation.
+sêkpängö : analogie.
+sêkpëkpesë : imminence.
+sêkpöngö-pä : affectif (mode).
+sêkuagbê: conjugaison; fonction syntaxique.
+sêkuba: génitif.
+sêkûne : singulier.
+sêkûne kôzo zo: première personne du singulier.
+sêkûyû : abessif.
+sêlêgô : uvularité.
+sêlengbe: flexion.
+sêli: nombre (singulier/pluriel).
+sêlikî: ponctuation.
+sêlindöngâ : pré-palatalité.
+sêlingö : illatif.
+sêliûse: dualité.
+sêlizänzö : collectif.
+sêlobo : laxitė.
+
+sêlôngbi : étirement.
+sêmbeze : accusatif.
+sêmîngi : pluralité; pluriel.
+sêmîngi kôzo zo: première personne du pluriel.
+sêmîngi otâ zo : troisième personne du pluriel.
+sêmîngi ûse zo : deuxième personne du pluriel.
+sêndâbakarî : lexicographie.
+sêndâgbêkoi : étude de la syntaxe.
+sêndâgerêgô : phonologie.
+sêndâgerêsêgô : tonologie.
+sê-ndâgô: pharyngalité.
+sêndâgô : phonétique.
+sêndâgüpa : syllabisme.
+sêndâïrïndo : toponymie.
+sêndâkpûlö : phraséologie (sens technique); énoncématique.
+sêndâlêgbê: morphosyntaxe.
+sêndâlêpa : morphologie.
+sêndândâlö : étymologie.
+sê-ndângâ : vélarité.
+sê-ndângâlinyô : labio-véiarité.
+sêndâpa : lexicologie.
+sê-ndâpa: sémantique.
+sêndâpandë : typologie.
+sêndâpandôo : terminologie.
+sêndâ-pendâgbegô : kymographie.
+sêndâ-pomägerêgô : morphophonologie.
+sêndâpomäpa : morphématique.
+sê-ndârâ : tension.
+
+sêndâsêgbegô : phonématique.
+sêndâsêgô : tonétique.
+sêndâtätë : étude de la composition.
+sêndâyângâ : linguistique.
+sêndâyângâ na sêdutï: sociolinguistique.
+sêndâyângâ tî afrika : linguistique africaine.
+sêndâyângâ tî düngöpa : linguistique générative.
+sêndâyângâ tî gbianngö-ndïä : linguistique générative et
+	transformationnelie.
+sêndâyângâ tî hängbïngö-yê : linguistique comparative.
+sêndâyângâ tî kodëkua : linguistique appliquée.
+sêndâyângâ tî lëngbïngö-yê : linguistique quantitative.
+sêndâyângâ tî penzengoi: linguistique diachronique.
+sêndâyângâ tî penzongoi: linguistique synchronique.
+sêndâyângâ tî sêbê : psycholinguistique.
+sêndâyângâ tî töndöngö-yê : linguistique descriptive.
+sêndâyângâ tî yâgbê : linguistique structurale.
+sêndën : futur (comme temps).
+sêndën tî kpöngöpa : futur de l'indicatif.
+sêndïäyângâ : grammaticalité (d'un énoncé).
+sêndölî: actif (voix).
+sêndoto : glottalité.
+sêngbängö: inaccompli.
+sêngbö : circonstance; circonstance particulière.
+sêngbö didä : circonstance d'association.
+sêngbö gümbä : circonstance translative.
+sêngbö ngoi : circonstance de temps.
+sêngbö tî ndo: circonstance de lieu.
+
+sêngbö tïsä : circonstance d'attribution; circonstance du bénéfactif.
+sêngbö walö : circonstance du sujet.
+sêngbö wandölî: circonstance d'agent.
+sêngbö yêkua : circonstance d'instrument.
+sêngê : facultatif.
+sêngê dambâlö : expansion libre.
+sêngê penzegô : intonème ordinaire (sans vocalisation).
+sênïngängö : duratif.
+sênô: altatif.
+sênöngö : progressif.
+sênyô : labialité.
+sênyôntën : labio-dentalité.
+sêpândä : ergativité.
+sêpandôo : terme.
+sêpatâ : surdité.
+sêpendâgô : vocalisme.
+sêpendâmbö : consonantisme.
+sêpendöngâ : post-palatalité.
+sêpëngö : battement.
+sêpenzegbê : syntagmatique.
+sêpenzo : simultanéité.
+sêpîtôtô : fermeture.
+sêpolï: substitution.
+sêpongä : inceptif.
+sêsïgî : éłatif.
+sêsüngö : orthographe.
+sêsurä : ablatif.
+sêsurägbê: paradigmatique.
+
+sêtätë : état de composition.
+sëtë: conjonction.
+sëtë tî ndömbâ : conjonction de coordination.
+sëtë tî va: conjonction de subordination.
+sêtënë : syntaxème; terme syntaxique.
+sêtisä : donatif.
+sêtîtambö : friction.
+sêtôngbi : alternance; variante.
+sêtôngbi tî pendâsêndâgô : variation conditionnée par la phonétique.
+sêtôngbi tî pendâsopë : variation conditionnée.
+sêtôngbi tî sêngê : variation libre.
+sêtorôrô : fréquentatif.
+sêwa: attribut.
+sêwaâwa: indétermination.
+sêwagütën : alvéolaritéė.
+sêwalinyô : bilabialité.
+sêwatën : dentalité.
+sêwëngö: accompli; perfectif.
+sêyâgbê : structure.
+sêyâgbê tî güpa : forme canonique de la syllabe).
+sêyângâ : oralité.
+sêyëkä: référence.
+sêyëngbïngö : harmonisation.
+sêyêngê : abstraction.
+sêzënëngö : continuité.
+sïgïngö : occurrence.
+sïrïngö: négation.
+sombere : dérivatif.
+
+sombere tî palî : dérivatif verbal.
+sombere tî pandôo : dérivatif nominal.
+suatënë: discours.
+suatënê tî sêhënë: discours emphatique.
+sûndâ : démontrer.
+surägbê : paradigme.
+
+taâ pandôo: nom propre.
+tägësi : postposition.
+tähüzü : préposition.
+tâkâ: antérieur; original.
+tâkâ sêgiri : passé antérieur.
+tâkâ sêndën : futur antérieur.
+tâkâpandôo : archaïsme.
+tâkâsû : original (d'un texte).
+tângo: temps.
+tângo tî fadësô : temps présent.
+tângo tî sêgiri: temps passé.
+tângo tî sêndën: temps futur.
+täpandë : exemple; modèle.
+tätë: composé.
+tate : composer.
+tatekoi : synthème.
+tätëngö : composition.
+tî perengû : indirect.
+tî wânga : insertif.
+tî yêkua: instrumental.
+tïngö nzänzärä : barre oblique /⁄/.
+
+tisä: datif.
+tögerêgô: phonème dominant.
+töhënë: accent principal.
+töndöngö: description.
+tôndôrô : mi-ouvert.
+tôndôrô pendâgô : voyelle mi-ouverte.
+tôngbi : métonymie.
+tôngbïsê : métathèse.
+tongoro : astérisque.
+töpendâgô : voyelle cardinale.
+tôrôrô : étroit.
+torôrô : itératif.
+
+tuke: convertir.
+tukepö : convertibilité.
+tulä: défection.
+tulä palî: défectif; verbe défectif.
+tunge : support de sens.
+tungepa : lexème.
+tungepa tî palî: lexème verbal.
+tungepa tî pandôo: lexème nominal.
+tutä: synthèse (comme résultat).
+tuta: synthétiser.
+ûse sêhängö-yângâ : deuxième degré d'aperture.
+
+va: subordonné(e).
+vulä : explication.
+
+vula: expliciter.
+vülängö-yê : découverte.
+
+wadamëngä : palatale.
+wadûgô, wadûmbö : laryngal(e).
+wafïnngö : vibrante.
+wafösêhôn : mi-nasale.
+wafötën : interdentale.
+wagbegô: voisé(e).
+wagberêmëngä-lêdangâ : prédorso-prépaletale.
+wagberê-sêlindöngâ : pré-palataie.
+wagbîan : diphtongue.
+wagbïänngö-yângâ : traducteur.
+wagönngö : sonore.
+wagôsêngê: non intonné.
+wagütën : alvéolaire.
+wagütën-limëngä : apico-alvéolaire.
+wahângbi: comparatif.
+wahängbingö-yângâ: comparativiste.
+wakângbi: distributeur.
+wakârâgô : occlusive (voyelle).
+walêgô: uvulaire.
+walinyô : bilabiale.
+walö: sujet.
+wambenze : transitif.
+wambö: chuintante.
+wandâgô: pharyngale.
+wandâlimëngä: prédorsale.
+
+wandâlimëngä-gberê-damëngä : pré-dorso-pré-palatale.
+wandâmëngä: post-dorsale.
+wandâmëngä pekô damëngä : post-dorso-post-palatale.
+wandâmëngä-dangâ: post-dorso-palatale.
+wandâmëngä-lêgô : dorso-uvulaire.
+wandângâ : vélaire,
+wandângâ-linyô: labio-vélaire.
+wandâsêhôn : prénasale,
+wandïäyângâ : grammairien.
+wandömëngä-ndangâ : dorso-palatale.
+wandoto : glottale.
+wângä : insertion.
+wängänä: emboîftement.
+wangana: emboîter.
+wangôngbi : rétroflexe.
+wanyôtön : labio-dentale.
+wapendâhôn : semi-nasale.
+wapendâwârâ : giottalisée.
+wapêndömëngä: post-palatale.
+wapëngö : battue (consonne).
+wapolïpa: pronominal.
+wapörönyô : bilabiale; labiale.
+wapôsâ: explétif.
+wärägô: glotte.
+wärätambö : corde vocale.
+wasêgbegô: intonatif.
+wasegë : épithète.
+wasêgô: intoné.
+
+wasêhôn: nasale.
+wasêndâbakarî : lexicographe.
+wasêndâgbegô ; phonologue.
+wasêndâgô: phonéticien.
+wasêndâhôn : prénalisée.
+wasêndâïrïndo : toponymiste.
+wasêndâpandôo : terminologue.
+wasêndâyângâ tî hängbïngö-yê : linguiste comparativiste.
+wasêyângâ: orale (voyelle).
+wasombere : dérivé.
+wasombo: occlusive (consonne).
+wasömbö tî gîgî: explosive.
+wasombo tî yânî: implosive.
+wasösö : sifflante.
+wasûndâ: qualifiant.
+wasüngö-ndâ: trait caractérisant.
+watën : dentale.
+watën-limëngä : apico-dentale.
+watîtakêtê : affriquée.
+watîtambö : fricative.
+watuke: convertible.
+wazênê: continue.
+wenge : excepté.
+woro, kötä : bas.
+wororo: infra-bas:; ultra-bas.
+wororo penzegô: intonème ultra-grave.
+
+yângâ: langue.
+
+yângâdûgô: épiglotte.
+yëkä: accord.
+yekä: référent.
+yêkângbi : distribué.
+yekä-wakpälë : référent-sujet.
+yêkpälë : thème.
+yêkûne : exception.
+yêndïä : régularité.
+yëngbïngö : harmonie.
+yêngbö : circonstant.
+yêngbö didä : circonstant associatif.
+yêngbö gümbä : circonstant translatif.
+yêngbö tî ndo: circonstant de lieu.
+yêngbö tî ngoi : circonstant de temps.
+yêngbö tî tïsä: circonstant bénéfactif; circonstant d'attribution.
+yêngbö wandölî: circonstant agent.
+yêngbo yêkua : circonstant instrumental.
+yêngê : abstrait.
+yëngöda : affirmation.
+yêpandë : terme de comparaison.
+yêtutä : élément d'une synthèse.
+yongôro sêgiri ; passé lointain.
+yongôro sêndën : futur lointain.
+
+zäzämä: hyperbole.
+zê: libre.
+zegbe pande : énoncé minimum.
+zïängö-lêgë : permissif.
+
+zïängö-yamba : omission.
+zigo: virgule.
+züngö sêgô : qaescendant (ton); ton descendant.
