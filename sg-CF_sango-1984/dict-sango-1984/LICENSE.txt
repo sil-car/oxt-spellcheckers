@@ -1,0 +1,6 @@
+Correcteur d'orthographe (Spell checker)
+
+Licence de MIT (MIT License)
+https://opensource.org/licenses/MIT
+
+© 2023, SIL International (nate_marti@sil.org)
