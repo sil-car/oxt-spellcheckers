@@ -2,7 +2,7 @@
 
 ## Downloads
 
-[Sango spellchecker OXT file](https://github.com/sil-car/oxt-spellcheckers/raw/main/sg-CF_sango-1984/dict-sango-1984-20230621_lo.oxt)
+[Sango spellchecker OXT file](https://github.com/sil-car/oxt-spellcheckers/raw/main/sg-CF_sango-1984/dict-sango-1984-20230630_lo.oxt)
 
 ## Using an OXT extension.
 
@@ -33,15 +33,8 @@
 1. Prepare AFF file.
    1. Include all affixes and their usage rules.
 1. Convert basic lexicon file(s) to DIC file using affixes from AFF file.
-1. Build OXT file; e.g. `scripts/aff-dic-to-oxt.sh sg-CF.aff`
-1. Ensure correct info in `description.xml`; e.g. `identfier`
-
-1. Convert original publications to text files.
-1. Remove any foreign words from text files (e.g. `scripts/lexicon-to-words.py`).
-1. Run `scripts/txt-to-wordlist.sh` to convert to wordlist.
-1. Run other conversions on wordlist file (e.g. merge a prefixes).
-1. Create DIC and AFF files.
-1. Run `aff-dic-to-oxt.sh` to create OXT module.
+1. Build OXT file; e.g. `scripts/make-oxt.sh`
+1. Update download link on this page.
 
 ## References
 
