@@ -4,7 +4,10 @@
 # Add the correct files & zip.
 # Save as OXT.
 
-base_dir="./sg-CF_sango-1984"
+script="$(realpath "$0")"
+scripts_dir="$(dirname "$script")"
+repo_dir="$(dirname "$scripts_dir")"
+base_dir="${repo_dir}/sg-CF_sango-1984"
 
 yyyy=$(date +%Y)
 mm=$(date +%m)
@@ -31,5 +34,5 @@ xmlstarlet edit -L -S \
 cd "${base_dir}/${base_name}" || exit 1
 cp ../sg-CF.aff ./dictionaries
 cp ../sg-CF.dic ./dictionaries
-rm ../"$outfilename"
+rm -f ../"$outfilename"
 zip -qr ../"$outfilename" ./*
