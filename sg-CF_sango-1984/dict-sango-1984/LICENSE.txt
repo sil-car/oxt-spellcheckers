@@ -5,7 +5,8 @@ Correcteur d'orthographe (Spell checker)
 Licence de MIT (MIT License)
 https://opensource.org/licenses/MIT
 
-Remerciements
-
-- Mme Georgette Florence KOYT-DEBALLE, qui a partagé la base de données de son écriture, "Illustrated Bilingual Lexicon, Second Part, Sängö-English".
-- L'Institut de Linguistique Appliqué -- Université de Bangui, qui a partagé plusieurs lexiques français-sängö.
+Remerciements:
+- Mme Georgette Florence KOYT-DEBALLE, qui a partagé la base de données de son
+  écriture, "Illustrated Bilingual Lexicon, Second Part, Sängö-English".
+- L'Institut de Linguistique Appliqué -- Université de Bangui, qui a partagé
+  plusieurs lexiques français-sängö.
