@@ -37,16 +37,17 @@ MAP i(ï)(î)I(Ï)(Î)
 MAP o(ö)(ô)O(Ö)(Ô)
 MAP u(ü)(û)U(Ü)(Û)
 
-# replacement suggestions
+# Replacement suggestions.
+# It seems words are tokenized by spaces, so a sequence of words can't be corrected.
+# Ref:
+# - https://sourceforge.net/p/hunspell/mailman/message/34649621/
+# - https://forum.openoffice.org/en/forum/viewtopic.php?p=344126#p344126
+# REP ^âla_mvenî$ âla-mvenî
+# REP ^ndô_nî$ ndônî
 REP 3
 REP l r
 REP r l
 REP école dambëtï
-# REP ^âla_mvenî$ âla-mvenî
-# REP ^î_mvenî$ î-mvenî
-# REP ^lo_mvenî$ lo-mvenî
-# REP ^mbï_mvenî$ mbï-mvenî
-# REP ^mo_mvenî$ mo-mvenî
 
 # nouns & adjectives (plural)
 PFX A N 1
