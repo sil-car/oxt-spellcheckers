@@ -2,7 +2,8 @@
 
 ## Downloads
 
-[Sango spellchecker OXT file](https://github.com/sil-car/oxt-spellcheckers/raw/main/sg-CF_sango-1984/dict-sango-1984-20230702_lo.oxt)
+Users can download the spellchecker from its page on the LibreOffice Extensions site 
+[here](https://extensions.libreoffice.org/en/extensions/show/34153).
 
 ## Using an OXT extension.
 
