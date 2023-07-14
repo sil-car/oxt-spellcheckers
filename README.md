@@ -23,6 +23,7 @@ Users can download the spellchecker from its page on the LibreOffice Extensions 
 1. Restart LibreOffice when prompted.  
 ![](data/2023-06-22_008.png)  
 1. Set document language (e.g. "Sango") to use new spell checker using "Tools" > "Language" > "For the whole text" > "Sango" (or maybe via "More..." if "Sango" doesn't appear there).  
+   More instructions can be found on the LibreOffice help site at [Selecting the Document Language](https://help.libreoffice.org/7.5/en-US/text/shared/guide/language_select.html)  
 ![](data/2023-06-22_009.png)  
 ![](data/2023-06-22_010.png)  
 
