@@ -16,9 +16,11 @@ Users can download the spellchecker from its page on the LibreOffice Extensions 
 ![](data/2023-06-22_004.png)  
 1. Select downloaded OXT file.  
 ![](data/2023-06-22_005.png)  
+1. Accept the license.  
 ![](data/2023-06-22_006.png)  
+1. Close the Extension Manager.  
 ![](data/2023-06-22_007.png)  
-1. Restart LibreOffice.  
+1. Restart LibreOffice when prompted.  
 ![](data/2023-06-22_008.png)  
 1. Set document language (e.g. "Sango") to use new spell checker using "Tools" > "Language" > "For the whole text" > "Sango" (or maybe via "More..." if "Sango" doesn't appear there).  
 ![](data/2023-06-22_009.png)  
