@@ -17,7 +17,7 @@ def main():
     tsv_rows = [[
         'Sango',
         'French',
-        'Parts of Speech (e.g. Adj, N, V)',
+        'Parts of Speech (e.g. A, N, V)',
     ]]
     for line in txt_lines:
         parts = line.split(':')
