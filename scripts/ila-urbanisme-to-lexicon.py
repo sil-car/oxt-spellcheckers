@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 """ Convert ILA's "Lexique de l'urbanisme" document (exported as text) to a basic lexicon format:
-        i.e. [word] [[parts of speech] [...]]
+        i.e. [word]\t[[parts of speech] [...]]
 """
 
 import regex as re
