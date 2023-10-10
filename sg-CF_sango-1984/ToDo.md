@@ -14,13 +14,13 @@
 [ ] Convert TSV files w/ parts of speech to lexicon text files.
 [ ] Add lexicon text files to DIC file; rebuild spellchecker.
 
-| Lexicon      | prep 1-col. pg. | run OCR | cleanup OCR | convert to TSV | share file | create lexicon TXT |
-| ---          | :-:             |:-:      | :-:         | :-:            | :-:        | :-:                |
-| urbanisme    | +               | +       | +           | +              | +          | +                  |
-| finances     | +               | +       | +           | +              |            |                    |
-| santé        | +               | +       | +           | +              |            |                    |
-| élévage      | +               |         |             |                |            |                    |
-| forestière   | +               |         |             |                |            |                    |
-| juridiques   |                 |         |             |                |            |                    |
-| linguistique | +               |         |             |                |            |                    |
-| bureautique  |                 |         |             |                |            |                    |
+| Lexicon      | prep 1-col. pg. | run OCR | cleanup OCR | convert to TSV | share file | add PoS | create lexicon TXT |
+| ---          | :-:             | --:     | --:         | --:            | :-:        | --:     | :-:                |
+| urbanisme    | +               | +       | +           | +              | +          |         | +                  |
+| finances     | +               | 10      | 30          | 0              |            |         |                    |
+| santé        | +               | 10      | 120         | 0              |            |         |                    |
+| élévage      | +               |         |             |                |            |         |                    |
+| forestière   | +               |         |             |                |            |         |                    |
+| juridiques   |                 |         |             |                |            |         |                    |
+| linguistique | +               |         |             |                |            |         |                    |
+| bureautique  |                 |         |             |                |            |         |                    |
