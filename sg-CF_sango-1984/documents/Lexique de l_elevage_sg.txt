@@ -1,375 +1,395 @@
 SANGO - FRANÇAIS
-ânyama bétail
-atorôni natron.
 
-bâgara boeuf
-bâgara tî didi zébu
-bämä phalangère
-bämarä lion
-bärä campement
-bata nyama tî ngonda domestiquer
-bata nyama élever
-batalê oeillère
-bätängö-mbamba ostréiculture
-bätängö-ndeke aviculture
-bätängö-nyama élevage
-bätängö-susu pisciculture
-bätängö-wôtoro apiculture
-baulëe baoulé
-bê coeur
-bebe foie
-bi ngo inséminer
-bi nyama élever
-bïngö-ngo insémination artificielle
-bïngö-nyama élevage
-bïngö-pärä ponte
+A-a
+ânyama : bétail
+atorôni : natron
 
-30
+B-b
+bâgara : boeuf
+bâgara tî didi : zébu
+bämä : phalangère
+bämarä : lion
+bärä : campement
+bata nyama tî ngonda : domestiquer
+bata nyama : élever
+batalê : oeillère
+bätängö-mbamba : ostréiculture
+bätängö-ndeke : aviculture
+bätängö-nyama : élevage
+bätängö-susu : pisciculture
+bätängö-wôtoro : apiculture
+baulëe : baoulé
+bê : coeur
+bebe : foie
+bi ngo : inséminer
+bi nyama : élever
+bïngö-ngo : insémination artificielle
+bïngö-nyama : élevage
+bïngö-pärä : ponte
 
-boma épidemie
-boma tî bâgara peste bovine
-bomasënë parasitose
-bou mouche tsé-tsé
-bozö-këngë fourreau
-bozö-yâ panse
-bübängö dégénérescence
-bûngbi tî ânyama cheptel
-büngbïngö-halë hybridation
+20
 
-dabâgara étable
-dagaduru porcherie
-dakôndo poulailler
-dalibêbe pigeonnier
-dambâ queue
-dambârâtâ écurie
-dambo niche
-dandaramba clapier
-danganga nyama clinique vétériņaire
-dangäsa milan noir
-danyama cage
-databa bergerie
-dayorö tî nyama pharmacie vétérinaire
-deku tî farânzi cobaye
-didi corne
-dödörö perdrix
-dubêre beurre
-düngö-pärä ponte
+boma : épidemie
+boma tî bâgara : peste bovine
+bomasënë : parasitose
+bou : mouche tsé-tsé
+bozö-këngë : fourreau
+bozö-yâ : panse
+bübängö : dégénérescence
+bûngbi tî ânyama : cheptel
+büngbïngö-halë : hybridation
+
+D-d
+dabâgara : établie
+dagaduru : porcherie
+dakôndo : poulailler
+dalibêbe : pigeonnier
+dambâ : queue
+dambârâtâ : écurie
+dambo : niche
+dandaramba : clapier
+danganga nyama : clinique vétérinaire
+dangäsa : milan noir
+danyama : cage
+databa : bergerie
+dayorö tî nyama : pharmacie vétérinaire
+deku tî farânzi : cobaye
+didi : corne
+dödörö : perdrix
+dubêre : beurre
+düngö-pärä : ponte
 
 21
 
-dûsêtå oesophage
+dûsêtâ : oesophage
 
-fambele épervier
-forôto naissance précoce
-fufû poumon
+F-f
+fambele : épervier
+forôto : naissance précoce
+fufû : poumon
 
-gaduru porc
-gainako, bôi-bâgara convoyeur
-gämvara renard
-gata écrevisse
-gbâbâgara bovin
-gbagä, kapi mangouste
-gbâgaduru suidé
-gbägbä clôture
-gbägbä enclos
-gbägbä parc
-gbägbä tî âkôndo basse-cour
-gbalâka ratelier
-gbândeke volaille
-gbângäsa caprin
-gbânyama-didi bovidés
-gbâtaba ovidés
-gbebiö-zabängä ganache
-gbekîlê-kaladi salière
-gbogbo tî nyama litière
-gbôgbôlinda rage
-gbomsude charbon
+G-g
+gaduru : porc
+gainako, bôi-bâgara : convoyeur
+gämvara : renard
+gata : écrevisse
+gbâbâgara : bovin
+gbagä, kapi : mangouste
+gbâgaduru : suidé
+gbägbä : clôture
+gbägbä : enclos
+gbägbä : parc
+gbägbä tî âkôndo : basse-cour
+gbalâka : ratelier
+gbândeke : volaille
+gbângäsa : caprin
+gbânyama-didi : bovidés
+gbâtaba : ovidés
+gbebiö-zabängä : ganache
+gbekîlê-kaladi : salière
+gbogbo tî nyama : litière
+gbôgbôlinda : rage
+gbomsude : charbon
 
 22
 
-gbongô hyène
-gbötöngö-ngûme traite
-gbüngö contention
-gbûsê boîterie
-gbutu, kobamî charbon symptomatique
-gerêbokôo palme
-gerênyama grasset
-gügü champignon
-gühalë génotype
-gümbängö évolution
+gbongô : hyène
+gbötöngö-ngûme : traite
+gbüngö : contention
+gbûsê : boîterie
+gbutu, kobamî : charbon symptomatique
+gerêbokôo : palme
+gerênyama : grasset
+gügü : champignon
+gühalë : génotype
+gümbängö : évolution
 
-hâka nëngö peser
-halë descendance; lignée
-halëmve phénotype
-härängö-nyama reptile
-hôn naseau
-hôn tî bâgara mufle
+H-h
+hâka nëngö : peser
+halë : descendance; lignée
+halëmve : phénotype
+härängö-nyama : reptile
+hôn : naseau
+hôn tî bâgara : mufle
 
-kaladi géniteur
-kalorïi calorie
-kanäna, bokôo canard
-kängängö-lêgë na kobêla prophylaxie
-kâpä phase
-kârâte tî wabätängö-nyama carte d'éleveur
-kilöo pesée
-kîrite ruminant
-koa puce
+K-k
+kaladi : géniteur
+kalorïi : calorie
+kanäna, bokôo : canard
+kängängö-lêgë na kobêla : prophylaxie
+kâpä : phase
+kârâte tî wabätängö-nyama : carte d'éleveur
+kilöo : pesée
+kîrite : ruminant
+koa : puce
 
 23
 
-koba koti tî bâgara streptothricose cutanée des bovins
-kobamênë maladie du sang
-kobamênë piroplasmose
-kobasënë tî bâgara pasteurellose bovine
-kobasënë tî fufû strongylose respiratoire
-kobasënë tî sîtâ strongylose gastro intestinale
-kobasënë-mênë anaplasmose
-kobasënëmênë cowdriose
-kobasüküngö-gô-na-yâ charbon bactéridien
-köbâye cobaye
-kôbe aliment
-kobêla tî äsïkärîsi ascaridiose
-kobêla tî fufû (tî bâgara) péripneumonie
-kobêla tî gbutu fièvre aphteuse
-kobêla tî mäkörôbe maladie infectieuse
-kobêla tî monzambë trypanosomiase, trypanosomose
-kobêla tî sënë maladie parasitaire
-kôbengangü aliment énergétique
-kodë méthode
-kodë masïni métériosation
-kodëkua technique
-kôlïbâgara taureau
-kôlïgaduru verrat
-kôlïkôndo coq
-kôlïngäsa bouc
-kôlïnyama mâle
-kôlïtäba bélier
-kolôngo auge
+koba koti tî bâgara : streptothricose cutanée des bovins
+kobamênë : maladie du sang
+kobamênë : piroplasmose
+kobasënë tî bâgara : pasteurellose bovine
+kobasënë tî fufû : strongylose respiratoire
+kobasënë tî sîtâ : strongylose gastro intestinale
+kobasënë-mênë : anaplasmose
+kobasënëmênë : cowdrjose
+kobasüküngö-gô-na-yâ : charbon bactéridien
+köbâye : cobaye
+kôbe : aliment
+kobêla tî äsïkärîsi : ascaridiose
+kobêla tî fufû (tî bâgara) : péripneumonie
+kobêla tî gbutu : fièvre aphteuse
+kobêla tî mäkörôbe : maladie infectieuse
+kobêla tî monzambë : trypanosomiase, byos
+kobêla tî sënë : maladie parasitaire
+kôbengangü : aliment énergétique
+kodë : méthode
+kodë masïni : métériosation
+kodëkua : technique
+kôlïbâgara : taureau
+kôlïgaduru : verrat
+kôlïkôndo : coq
+kôlïngäsa : bouc
+kôlïnyama : mâle
+kôlïtäba : bélier
+kolôngo : auge
 
 24
 
-kombâ pintade
-kombâlibebe dindon
-kombowari abreuvoir
-kôndo poulet
-kôndo tî ëlëvâze poulet de chair
-kötä gbägbä tî ânyama ranch
-kötä-bokôo oie
-kötädûgô oesophage
-kötäkörö tuberculose
-koti parasite
-koti tique
-kpângi aile
-kpôkôto sabot
-kpolôna croisement d'espèce
-kpöngö piqûre
-kpuhûtu charbon
-küätaba laine
-küäterê-nyama pelage
-kûtu bosse
+kombâ : pintade
+kombâlibebe : dindon
+kombowari : abreuvoir
+kôndo : poulet
+kôndo tî ëlëvâze : poulet de chair
+kötä gbägbä tî ânyama : ranch
+kötä-bokôo : oie
+kötädûůgô : oesophage
+kötäkörö : tuberculose
+koti : parasite
+koti : tique
+kpângi : aile
+kpôkôto : sabot
+kpolôna : croisement d'espèce
+kpöngö : piqûre
+kpuhûtu : charbon
+küätaba : laine
+küäterê-nyama : pelage
+kûtu : bosse
 
-labatüära abattoir
-lagorôti abreuvoir
-lasöon ration
-lê oeil
-lênyama chanfrein
-lêpêrë prairie
-li tî ânyama nombre d'animaux
-libêbe pigeon
+L-l
+labatüära : abattoir
+lagorôti : abreuvoir
+lasöon : ration
+lê : oeil
+lênyama : chanfrein
+lêpêrë : prairie
+li tî ânyama : nombre d'animaux
+libêbe : pigeon
 
 25
 
-lihalë souche
-lingö-ndo migration
-linô type
-lôo ruche
-lüngülängö-korobô châtrer
-mafüta graisse
-makongë chenille
-maoya épidemie
-marä race
-matabïsi ristourne
-mba conduire
-mbârâtâ cheval
-mbotu fièvre aphteuse
-mbünë boîterie
-me mamelle
-mê oreille
-mêngâ langue
-mî chair
-mokpöngöbö joug
-möndëngö-terê saillie
-müngö-bataterê vaccination
-müngö-ngo fécondation
+lihalë : souche
+lïngö-ndo : migration
+linô : type
+lôo : ruche
+lüngülängö-korobô : châtrer
 
-ndâkpôkôto pâturon
-ndämä zébu mbororo
-ndaramba lapin
+M-m
+mafüta : graisse
+makongö : chenille
+maoya : épidemie
+marä : race
+matabïsi : ristourne
+mba : conduire
+mbârâtâ : cheval
+mbotu : fièvre aphteuse
+mbünë : boîterie
+me : mamelle
+mê : oreille
+mêngâ : langue
+mî : chair
+mokpöngöbö : joug
+möndëngö-terê : saillie
+müngö-bataterê : vaccination
+müngö-ngo : fécondation
+
+N-n
+ndâkpôkôto : pâturon
+ndämä : zébu mbororo
+ndaramba : lapin
 
 26
 
-ndeke oiseau
-ndeke tî gerêbokôo palmipède
-ndeke-kôndo charognard
-ndo zone
-ndofängö-nyama abattoir
-ndotëngö-pêrë pâturage
-ngâzi tourteau
-ngbäkpä aigle
-ngbâ-ndoko sédentaire
-ngbëndägerê jarret
-ngbîna-bê rate
-ngbö clôture
-ngbö serpent
-ngböngô tibia
-ngböyäkä ferme
-ngo gestation
-ngöngö seitaria
-ngonzo bile
-ngorongbö ergot
-ngualö aigle
-ngûbokôo canardière
-ngûlavu miel
-ngûme lajt
-ngungu tî monzambë mouche tsé-tsé
-ngûru cochon
-nörö malformation
-nörö tare
-nyama viande
+ndeke : oiseau
+ndeke tî gerêbokôo : palmipède
+ndeke-kôndo : charognard
+ndo : zone
+ndofängö-nyama : abattoir
+ndotëngö-pêrë : pâturage
+ngâzi : tourteau
+ngbäkpä : aigle
+ngbâ-ndoko : sédentaire
+ngbëndägerê : jarret
+ngbîna-bê : rate
+ngbö : clôture
+ngbö : serpent
+ngböngô : tibia
+ngböyäkä : ferme
+ngo : gestation
+ngöngö : seitaria
+ngonzo : bile
+ngorongbö : ergot
+ngualö : aigle
+ngûbokôo : canardière
+ngûlavu : miel
+ngûme : lait
+ngungu tî monzambë : mouche tsé-tsé
+ngûru : cochon
+nörö : malformation
+nörö : tare
+nyama : viande
 
 27
 
-nyama tî gbötöngö-yê animal de trait
-nyama tî gbôto-yê trait
-nyama tî ködörö animal domestique
-nyama tî kua bête de somme
-nyama tî ngonda animal sauvage
-nyamame mammifère
-nyibâgara taurillon
-nyibâgara veau
-nyibokôo caneton
-nyigaduru porcin
-nyikanäna caneton
-nyïkôndo poussin CHECK-ACCENT-WITH-FRENCH-SANGO
-nyimbârâtâ poulain
-nyimbârâtâ-pûnda bardot
-nyïndaramba lapereau CHECK-ACCENT
-nyingäsa chevreau
-nyipûnda-mbârâtâ mulet
-nyitaba agneau
-nzätä onglon
-nzekede crevette
-nzöhalë génotype
-nzökôbe nutritif
-nzöpêrë fourrage; plante fourragère
-öröngö châtrer
+nyama tî gbötöngö-yê : animal de trait
+nyama tî gbôto-yê : trait
+nyama tî ködörö : animal domestique
+nyama tî kua : bête de somme
+nyama tî ngonda : animal sauvage
+nyamame : mammifère
+nyibâgara : taurillon
+nyibâgara : veau
+nyibokôo : caneton
+nyigaduru : porcin
+nyikanäna : caneton
+nyïkôndo : poussin
+nyimbârâtâ : poulain
+nyimbârâtâ-pûnda : bardot
+nyïndaramba : tapereau
+nyingäsa : chevreau
+nyipûnda-mbârâtâ : mulet
+nyitaba : agneau
+nzätä : onglon
+nzekede : crevette
+nzöhalë : génotype
+nzökôbe : nutritif
+nzöpêrë : fourrage; plante fourragère Jan
+öröngö : châtrer
 
-pambo lombric
-pärä oeuf
-pekôgerê-bâgara boulet
+P-p
+pambo : ombri
+pärä : oeuf
+pekôgerê-bâgara : boulet
 
 28
 
-pete, gbôto (ngû me) traire
-pëtëngö-ngûme traite
-pope ver à soi
-pörölê paupière
-poroteîni protéine
-pôso ration
-pûnda âne
+pete, gbôto (ngû me) : traire
+pëtëngö-ngûme : traite
+pope : ver à soi
+pörölê : paupière
+poroteîni : protéine
+pôso : ration
+pûnda : âne
 
-ridôngo, karâni transhumance
+R-r
+ridôngo, karâni : transhumance
 
-säkä drèche
-säkä, ngâzi son
-särä gale
-sêdüngö productivité
-sêgbânî abondance
-sêlingbïngö adaptation
-sêmarä variété
-sënë parasite
-sënë tî bê douve de foi, fasciolose
-sênzönî qualité
-sêtâ boyau
-sïökodë défaut
-siri pou
-sisongo herbe å éléphant
-sisongo pennisetum
-söröngö sélection
-susu poisson
+S-s
+säkä : drèche ooo
+säkä, ngâzi : son
+särä : gale
+sêdüngö : productivité
+sêgbânî : abondance
+sêlïngbïngö : adaptation
+sêmarä : variété
+sënë : parasite
+sënë tî bê : douve de foi, fasciolose
+sênzönî : qualité
+sêtâ : boyau
+sïökodë : défaut
+siri : pou
+sisongo : herbe â éléphant
+sisongo : pennisetum
+söröngö : sélection
+susu : poisson
 
 29
 
-taba mouton; ovin
-têngbi gônyama atteler
-têngbigô joug
-tëngbïngö-gônyama attelage
-tëngbïngö-halë hbybridation
-terêgô-nyama encolure
-tezôon charognard
-tï mafüta engraisser
-tïängö carence
-tïängö déficience
-tonga piqûre
-tope aulacode
-tusï panse
+T-t
+taba : mouton; ovin
+têngbi gônyama : atteler
+têngbigô : joug
+tëngbïngö-gônyama : attelage
+tëngbïngö-halë : bhybridation
+terêgô-nyama : encolure
+tezôon : charognard
+tï mafüta : engraisser
+tïängö : carence
+tïängö : déficience
+tonga : piqûre
+tope : aulacode
+tusï : panse
 
-vi boyau
-vige génisse
-vitämîni vitamine
+V-v
+vi : boyau
+vige : génisse
+vïtämîni : vitamine
 
-wabätängö-bâgara bouvier
-wabätängö-bâgara vacher
-wabätängö-mbamba ostréiculteur
-wabätängö-mbârâtâ palefrenier
-wabätängö-ndeke aviculteur
-wabätängö-ngäsa chevrier
-wabätängö-nyama éleveur
-wabätängö-susu pisciculteur
+W-w
+wabätängö-bâgara : bouvier
+wabätängö-bâgara : vacher
+wabätängö-mbamba : ostréiculteur
+wabätängö-mbârâtâ : palefrenier
+wabätängö-ndeke : aviculteur
+wabätängö-ngäsa : chevrier
+wabätängö-nyama : éleveur
+wabätängö-susu : pisciculteur
 
 30
 
-wabätängö-taba berger
-wabätängö-wôtoro apiculteur
-wabïngö-nyama éleveur
-wabïngö-pärä pondeuse
-wâlï ndaramba hase
-wâlï nyama femelle
-wâlï-bâgara vache
-wâlï-bokôo cane
-wâlï-gaduru truie
-wâlï-kanäna cane
-wâlïkôndo poule
-wâlï-mbârâtâ jument
-wâlï-ndaramba lapine
-wâlï-ngäsa chèvre
-wâlïtaba brebis
-wanganga nyama docteur vétérinaire
-wanganga tî nyama infirmier vétérinaire
-wanganga-nyama vétérinaire
-watëngö-kugbë herbivore
-watëngö-pêrë herbivore
-wawuru dipping-tank
-wazïngö apiculteur
-wên-yângâ mors
-wïrï pierre à lécher
-wököngö-küä duvet
-wôtoro abeille
-wüngö quantité
+wabätängö-taba : berger
+wabätängö-wôtoro : apiculteur
+wabïngö-nyama : éleveur
+wabïngö-pärä : pondeuse
+wâlï ndaramba : hase
+wâlï nyama : femelle
+wâlï-bâgara : vache
+wâlï-bokôo : cane
+wâlï-gaduru : truie
+wâlï-kanäna : cane
+wâlïkôndo : poule
+wâlï-mbârâtâ : jument
+wâlï-ndaramba : lapine
+wâlï-ngäsa : chèvre
+wâlïtaba : brebis
+wanganga nyama : docteur vétérinaire
+wanganga tî nyama : infirmier vétérinaire
+wanganga-nyama : ‘vétérinaire
+watëngö-kugbë : herbivore
+watëngö-pêrë : herbivore
+wawuru : dipping-tank
+wazingö : apiculteur
+wên-yângâ : mors
+wïrï : pierre à lécher
+wököngö-küä : duvet
+wôtoro : abeille
+wüngö : quantité
 
 31
 
-yângâ ndeke bec
-yaûru yaourt
-yênyö breuvage
-yeri mangeoire
-yöngö tî nyama garrot
+Y-y
+yângâ ndeke : bec
+yaûru : yaourt
+yênyö : breuvage
+yeri : mangeoire
+yöngö tî nyama : garrot
 
-zabängä mâchoire
-zen panthère
-zîa ngo féconder
-zîa sêdüngö fertiliser
-zïängö-ngo insémination naturelle
-zïngö apiculture.
+Z-z
+zabängä : mâchoire
+zen : panthère
+zîa ngo : féconder
+zîa sêdüngö : fertiliser
+zïängö-ngo : insémination naturelle
+zïngö : apiculture.
 
 32
