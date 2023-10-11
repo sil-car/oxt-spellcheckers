@@ -2,8 +2,8 @@
 
 ## Downloads
 
-Users can download the spellchecker from its page on the LibreOffice Extensions site 
-[here](https://extensions.libreoffice.org/en/extensions/show/34153).
+Users can download the spellchecker from
+[its page on the LibreOffice Extensions site](https://extensions.libreoffice.org/en/extensions/show/34153).
 
 ## Using an OXT extension.
 
