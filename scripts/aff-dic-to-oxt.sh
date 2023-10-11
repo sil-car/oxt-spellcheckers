@@ -7,8 +7,8 @@
 #   - $ man hunspell
 #   - $ hunspell -h
 
-script_path="$(realpath "$0")"
-script_dir_path="$(dirname "$script_path")"
+# script_path="$(realpath "$0")"
+# script_dir_path="$(dirname "$script_path")"
 
 # Possible OXT dir locations:
 #   - parent of AFF file in 1st argument
@@ -31,11 +31,6 @@ else
     echo "Error: No AFF file given nor found in $PWD"
     exit 1
 fi
-# oxt_dir=$(realpath "$PWD")
-# if [[ -z $(find "$oxt_dir" -maxdepth 1 -name '*.aff') ]]; then
-#     echo "Error: No AFF file found in $oxt_dir."
-#     exit 1
-# fi
 
 yyyy=$(date +%Y)
 today=$(date +%Y%m%d)
