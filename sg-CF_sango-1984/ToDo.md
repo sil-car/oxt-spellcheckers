@@ -7,12 +7,13 @@
   1. Lexique des terms juridiques et administratifs
   1. Lexique de linguistique
   1. Lexique de suite bureautique
-- [ ] Split each lexicon into single-column pages.
-- [ ] OCR the text & clean it up.
-- [ ] Convert the text to TSV files for marking parts of speech.
-- [ ] Share files with Kim.
-- [ ] Convert TSV files w/ parts of speech to lexicon text files.
-- [ ] Add lexicon text files to DIC file; rebuild spellchecker.
+- For each lexicon:
+  - Split each lexicon into single-column pages.
+  - OCR the text & clean it up.
+  - Convert the text to TSV files for marking parts of speech.
+  - Share files with Kim.
+  - Convert TSV files w/ parts of speech to lexicon text files.
+  - Add lexicon text files to DIC file; rebuild spellchecker.
 
 | Lexicon      | prep 1-col. pg. | run OCR | cleanup OCR | convert to TSV | share file | add parts | create lexicon TXT |
 | ---          | :-:             | --:     | --:         | :-:            | :-:        | --:       | :-:                |
