@@ -30,6 +30,10 @@ ICONV Ü Ü
 
 TRY naîtgâkeösêbdäolmôyëïûiruzfpBwüNSvÂADGMWLYFhKHIPTÛZ
 
+MAXNGRAMSUGS 5
+MAXDIFF 10
+ONLYMAXDIFF
+
 MAP 5
 MAP a(ä)(â)A(Ä)(Â)
 MAP e(ë)(ê)E(Ë)(Ê)
@@ -44,10 +48,15 @@ MAP u(ü)(û)U(Ü)(Û)
 # - https://forum.openoffice.org/en/forum/viewtopic.php?p=344126#p344126
 # REP ^âla_mvenî$ âla-mvenî
 # REP ^ndô_nî$ ndônî
-REP 3
+REP 8
 REP l r
 REP r l
+REP ndj nz
+REP ^ndjoni$ nzönî
+REP ^nzoni$ nzönî
 REP école dambëtï
+REP merci singîla
+REP ordinateur kombüta
 
 # nouns & adjectives (plural)
 PFX A N 1
