@@ -10,17 +10,39 @@
 # script_path="$(realpath "$0")"
 # script_dir_path="$(dirname "$script_path")"
 
+show_usage() {
+    echo "usage: $0 [-h] | [-d DESC_FILE] AFF_FILE"
+}
+
+while getopts ":d:h" o; do
+    case "${o}" in
+        d)
+            desc_str=${OPTARG}
+            desc_file="$(realpath "$desc_str")"
+            ;;
+        h)
+            show_usage
+            exit 0
+            ;;
+        *)
+            show_usage
+            exit 1
+            ;;
+    esac
+done
+shift $((OPTIND-1))
+
 # Possible OXT dir locations:
-#   - parent of AFF file in 1st argument
+#   - parent of AFF file
 #   - PWD
 if [[ -n $1 ]]; then # check 1st argument
-    infile="$(realpath "$1")" # also tests if file exists
+    aff_file="$(realpath "$1")" # also tests if file exists
     if [[ $? -ne 0 ]]; then
         exit 1
-    fi        
-    infile_parent="$(dirname "$infile")"
-    if [[ $infile =~ .*\.aff$ && -r $infile && -d $infile_parent ]]; then
-        oxt_dir="$infile_parent"
+    fi
+    aff_file_parent="$(dirname "$aff_file")"
+    if [[ $aff_file =~ .*\.aff$ && -r $aff_file && -d $aff_file_parent ]]; then
+        oxt_dir="$aff_file_parent"
     else
         echo "Error: Not a valid AFF file: $1"
         exit 1
@@ -33,14 +55,14 @@ else
 fi
 
 yyyy=$(date +%Y)
-today=$(date +%Y%m%d)
+# today=$(date +%Y%m%d)
 ver=$(date +%Y.%m.%d)
 
 name=$(basename "$oxt_dir")
 langtag=$(echo "$name" | awk -F'_' '{print $1}')
 lang=$(echo "$name" | awk -F'_' '{print $2}')
 
-oxt_file="${oxt_dir}/dict-${lang}-${today}_lo.oxt"
+oxt_file="${oxt_dir}/dict-${lang}-v${ver}.oxt"
 
 license_names=()
 for lg in "en" "fr"; do
@@ -79,27 +101,32 @@ if ! cd "$temp_dir"; then
 fi
 unzip "$oxt_file"
 
-# Add reference to French LICENSE file.
-xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
-    -N xlink="http://www.w3.org/1999/xlink" \
-    --append "//ns:description/ns:registration/ns:simple-license/ns:license-text[@lang='en']" \
-        --type elem --name "license-text" \
-    --var new '$prev' \
-    --insert '$new' --type attr --name "xlink:href" --value "LICENSES-fr.txt" \
-    --insert '$new' --type attr --name "lang" --value "fr" \
-    "description.xml"
+# Update description.xml.
+if [[ -n $desc_file ]]; then # use provided file
+    cp "$desc_file" "$temp_dir"
+else # modify generated file
+    # Add reference to French LICENSE file.
+    xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
+        -N xlink="http://www.w3.org/1999/xlink" \
+        --append "//ns:description/ns:registration/ns:simple-license/ns:license-text[@lang='en']" \
+            --type elem --name "license-text" \
+        --var new '$prev' \
+        --insert '$new' --type attr --name "xlink:href" --value "LICENSES-fr.txt" \
+        --insert '$new' --type attr --name "lang" --value "fr" \
+        "description.xml"
 
-# Update display names.
-display_en="Sango-1984 Spell Checker"
-xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
-    --update "//ns:description/ns:display-name/ns:name[@lang='en']" --value "$display_en" \
-    "description.xml"
-display_fr="Correcteur d'orthographe sango-1984"
-xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
-    --append "//ns:description/ns:display-name/ns:name[@lang='en']" \
-        --type elem --name "name" --value "$display_fr" \
-    --insert '$prev' --type attr --name "lang" --value "fr" \
-    "description.xml"
+    # Update display names.
+    display_en="Sango Spell Checker (1984)"
+    xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
+        --update "//ns:description/ns:display-name/ns:name[@lang='en']" --value "$display_en" \
+        "description.xml"
+    display_fr="Correcteur d'orthographe, sango (1984)"
+    xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
+        --append "//ns:description/ns:display-name/ns:name[@lang='en']" \
+            --type elem --name "name" --value "$display_fr" \
+        --insert '$prev' --type attr --name "lang" --value "fr" \
+        "description.xml"
+fi
 
 # Add updated file(s) into OXT.
 zip "$oxt_file" "description.xml"
