@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-""" Convert multiple basic lexicon files in Sango to a DIC file using the given AFF file.
+""" Convert multiple basic lexicon files in Sango to a DIC file.
+    Assumes the same affixes as defined in the sg-CF.aff file.
 """
 
 import sys
