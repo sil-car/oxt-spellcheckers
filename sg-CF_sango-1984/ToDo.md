@@ -18,7 +18,7 @@
 | Lexicon      | prep 1-col. pg. | run OCR | cleanup OCR | convert to TSV | share file | add parts | create lexicon TXT |
 | ---          | :-:             | --:     | --:         | :-:            | :-:        | --:       | :-:                |
 | urbanisme    | +               | +       | +           | +              | +          | +         | +                  |
-| finances     | +               | 10      | 30          | +              |            |           |                    |
+| finances     | +               | 10      | 30          | +              | +          |           |                    |
 | santé        | +               | 10      | 120         | +              |            |           |                    |
 | élévage      | +               | 25      | 60          | +              |            |           |                    |
 | forestière   | +               | 5       | 10          | +              |            |           |                    |
