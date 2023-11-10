@@ -17,7 +17,7 @@ class Lexicon():
         return len(self.entries)
 
     def get_output_text(self):
-        return '\n'.join(sango_sort([e.as_lexicon_line() for e in self.entries if e.gloss_sg is not None]))
+        return '\n'.join(sango_sort(list(set(e.as_lexicon_line() for e in self.entries if e.gloss_sg is not None))))
 
 class Entry():
     """ Basic details: Sango text, parts of speech; e.g.
