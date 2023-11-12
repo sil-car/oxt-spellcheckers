@@ -8,16 +8,36 @@ import unidecode
 
 class Lexicon():
     def __init__(self, entries=None):
-        self.entries = set()
-        if entries is not None and len(entries) > 0:
-            self.entries = set(entries)
+        self.entries = dict()
+        # if entries is not None and len(entries) > 0:
+        #     self.entries = entries
+        self.glosses = self.get_glosses()
         self.size = self.get_size()
+
+    def add_entry(self, entry_tuple):
+        if len(entry_tuple) != 2:
+            return
+        gloss = entry_tuple[0]
+        parts_of_speech = set(entry_tuple[1])
+        if gloss not in self.entries.keys():
+            # Create new entry.
+            self.entries[gloss] = Entry()
+            self.entries[gloss].gloss_sg = gloss
+            self.entries[gloss].parts_of_speech = parts_of_speech
+        else:
+            # Update entry.
+            for p in parts_of_speech:
+                self.entries[gloss].parts_of_speech.add(p)
+
+    def get_glosses(self):
+        return [k for k in self.entries.keys()]
 
     def get_size(self):
         return len(self.entries)
 
     def get_output_text(self):
-        return '\n'.join(sango_sort(list(set(e.as_lexicon_line() for e in self.entries if e.gloss_sg is not None))))
+        # return '\n'.join(sango_sort(list(set(e.as_lexicon_line() for e in self.entries if e.gloss_sg is not None))))
+        return '\n'.join(sango_sort(list(set(e.as_lexicon_line() for e in self.entries.values() if e.gloss_sg is not None))))
 
 class Entry():
     """ Basic details: Sango text, parts of speech; e.g.
@@ -29,6 +49,9 @@ class Entry():
         self.parts_of_speech = set()
         if input_lines is not None and len(input_lines) > 0:
             self.input_lines = input_lines
+
+    def as_tuple(self):
+        return (self.gloss_sg, self.parts_of_speech)
 
     def as_lexicon_line(self):
         return f"{self.gloss_sg}\t{' '.join(self.parts_of_speech)}"
