@@ -2,15 +2,14 @@
 
 import argparse
 import regex as re
-import sys
 import unidecode
 
 from pathlib import Path
 from pypdf import PdfReader
 
-from tools import Entry
 from tools import Lexicon
 from tools import sango_sort
+from tools import raw_words_to_nfd
 
 
 limits = {
@@ -37,6 +36,7 @@ limits = {
 }
 
 y_jump = 10
+
 
 class DicoPart():
     def __init__(self, chunks=None):
@@ -70,7 +70,7 @@ class DicoPart():
         self.lexicon_entries = dict()
         self.chunks = chunks
         self.all_words = set()
-        if self.chunks is not None and len(self.chunks) > 0:
+        if self.chunks:
             self.parse_dico_chunks()
 
     def parse_dico_chunks(self):
@@ -79,49 +79,62 @@ class DicoPart():
         for i, c in enumerate(self.chunks):
             words = set()
             if c[2] is not None:
-                valid_fonts = [
-                    '/FGMFON+TimesNewRomanPSMT',
-                    '/FGMFOM+TimesNewRomanPS-BoldMT',
-                    '/FGMGAA+TimesNewRomanPS-BoldItalicMT',
-                    '/FGMFOI+TimesNewRomanPS-ItalicMT',
+                # Strip random prefix from font name;
+                # e.g. /RLVMBC+TimesNewRomanPSMT -> TimesNewRomanPSMT
+                base_font = re.sub(r'/.+\+', '', c[2].get('/BaseFont'))
+                valid_font_names = [
+                    'TimesNewRomanPSMT',
+                    'TimesNewRomanPS-BoldMT',
+                    'TimesNewRomanPS-BoldItalicMT',
+                    'TimesNewRomanPS-ItalicMT',
                 ]
-                if c[2].get('/BaseFont') == '/FGMGAA+TimesNewRomanPS-BoldItalicMT': # part-of-speech font
+                if base_font == 'TimesNewRomanPS-BoldItalicMT':
                     parts_of_speech_idxs.append(i)
+                if base_font in valid_font_names:
                     words = clean_words(set(c[0].split()))
-                if c[2].get('/BaseFont') in valid_fonts:
-                    words = clean_words(set(c[0].split()))
-                
+
+            words = raw_words_to_nfd(words)
             for w in words:
                 self.all_words.add(w)
-    
+
         for i in parts_of_speech_idxs:
             b = 1
             part_of_speech = clean_text_chunk(self.chunks[i][0])
+            if not part_of_speech:
+                continue
             gloss_sg = None
-            if b > i:
+            if i == 0:  # gloss is irretrievable if POS is in initial chunk
                 continue
             # Loop backwards from i to find previous gloss text.
             while b <= i:
                 c = self.chunks[i-b]
-                if c[2] is not None and c[2].get('/BaseFont') == '/FGMFOM+TimesNewRomanPS-BoldMT':
-                    # print(f"> {c[0]}")
-                    gloss_sg = clean_text_chunk(c[0])
-                    # print(f"> {gloss_sg}")
-                    break
+                base_font = None
+                if c[2]:
+                    base_font = re.sub(r'/.+\+', '', c[2].get('/BaseFont'))
+                    if base_font == 'TimesNewRomanPS-BoldMT':
+                        text = clean_text_chunk(c[0])
+                        if text and not text.startswith('kt'):
+                            gloss_sg = text
+                            break
                 b += 1
 
-            # if part_of_speech is not None and gloss_sg is not None and gloss_sg != '':
             if part_of_speech and gloss_sg:
+                # print(f"{c[0] = }; {part_of_speech = }; {gloss_sg = }")
                 # Take only 1st word of gloss.
                 gloss_sg = clean_text_chunk(gloss_sg.split()[0])
                 # "Translate" the part of speech.
-                part_of_speech_sg = clean_text_chunk(re.split(r' |\.', part_of_speech)[0])
-                part_of_speech_sg = unidecode.unidecode(part_of_speech_sg.lower())
-                part_of_speech = self.parts_of_speech_dict.get(part_of_speech_sg)
+                part_of_speech_sg = clean_text_chunk(re.split(r' |\.', part_of_speech)[0])  # noqa: E501
+                part_of_speech_sg = unidecode.unidecode(part_of_speech_sg.lower())  # noqa: E501
+                part_of_speech = self.parts_of_speech_dict.get(part_of_speech_sg)  # noqa: E501
                 # print(f"> {gloss_sg}, {part_of_speech}")
-                if part_of_speech and gloss_sg: # check again after manipulations
-                    len_short_key = min((len(k) for k in self.parts_of_speech_dict.keys()))
-                    if len(gloss_sg) < 2 or len(part_of_speech) < len_short_key:
+                if part_of_speech and gloss_sg:  # check again after edits
+                    len_short_key = min(
+                        (len(k) for k in self.parts_of_speech_dict.keys())
+                    )
+                    if (
+                        len(gloss_sg) < 2
+                        or len(part_of_speech) < len_short_key
+                    ):
                         continue
                     if self.lexicon_entries.get(gloss_sg) is None:
                         self.lexicon_entries[gloss_sg] = []
@@ -143,17 +156,17 @@ class DicoPart():
         for c in self.chunks:
             words = set()
             t = c[0].strip()
-            t = re.sub(r'[0-9]', '', t) # remove numbers
+            t = re.sub(r'[0-9]', '', t)  # remove numbers
             t = t.strip()
-            t = re.sub(r'^I+', '', t) # remove Roman numerals
+            t = re.sub(r'^I+', '', t)  # remove Roman numerals
             t = t.strip()
-            t = re.sub(r'\[*(.+)\]*', r'\1', t) # remove brackets (rare typo in PDF)
+            t = re.sub(r'\[*(.+)\]*', r'\1', t)  # remove brackets (PDF typo)
             t = t.strip()
-            t = re.sub(r'\W*(.+)\W*', r'\1', t) # strip bad chars
-            t = t.strip() # strip any remaining whitespace (should be redundant)
+            t = re.sub(r'\W*(.+)\W*', r'\1', t)  # strip bad chars
+            t = t.strip()  # strip any remaining whitespace (redundant?)
             # if re.search(r'\W', t): # ignore chunk containing bad chars
             #     continue
-            if len(t) < 2: # filter out empty strings and single chars
+            if len(t) < 2:  # filter out empty strings and single chars
                 continue
             font = c[2].get('/BaseFont')
             # print(f"{font}, {t}")
@@ -189,7 +202,10 @@ class DicoPart():
 
         if len(defs.get('glosses')) == len(defs.get('parts-of-speech')):
             glosses_sg = [g.split()[0] for g in defs.get('glosses')]
-            parts_of_speech = [self.parts_of_speech_dict.get(re.split(r' |\.', p)[0]) for p in defs.get('parts-of-speech')]
+            parts_of_speech = [
+                self.parts_of_speech_dict.get(re.split(r' |\.', p)[0])
+                for p in defs.get('parts-of-speech')
+            ]
             lexicon_entries = zip(glosses_sg, parts_of_speech)
             self.lexicon_entries = []
             for g, p in lexicon_entries:
@@ -197,27 +213,32 @@ class DicoPart():
                     continue
                 self.lexicon_entries.append((g, p))
 
+
 def visitor_body(text, cm, tm, font_dict, font_size):
     global chunks
     global limits
     global side
     x = tm[4]
     y = tm[5]
-    if ( x > limits[side]['x']['min'] and x < limits[side]['x']['max']
-        and y > limits[side]['y']['min'] and y < limits[side]['y']['max'] ):
+    if (
+        x > limits[side]['x']['min'] and x < limits[side]['x']['max']
+        and y > limits[side]['y']['min'] and y < limits[side]['y']['max']
+    ):
         chunks.append((text, tm, font_dict))
+
 
 def get_sango_chunks_by_page(page):
     global chunks
     global side
     chunks = []
     # print(page.page_number)
-    if page.page_number % 2 == 0: # even index
-        side = 'R' # 1st page of PDF is an R page
-    elif page.page_number % 2 == 1: # odd index
+    if page.page_number % 2 == 0:  # even index
+        side = 'R'  # 1st page of PDF is an R page
+    elif page.page_number % 2 == 1:  # odd index
         side = 'L'
     page.extract_text(visitor_text=visitor_body)
     return chunks
+
 
 def sort_chunks(chunks):
     """ Order chunks first by y coord. then by x coord. """
@@ -231,6 +252,7 @@ def sort_chunks(chunks):
     x_sorted_chunks = sorted(chunks, key=get_xcoord)
     xy_sorted_chunks = sorted(x_sorted_chunks, key=get_ycoord, reverse=True)
     return xy_sorted_chunks
+
 
 def split_chunks_into_entries(chunks):
     """ chunk -> (text, tm_coords) """
@@ -246,15 +268,16 @@ def split_chunks_into_entries(chunks):
             y_last = y
             entry_chunks.append(c)
             continue
-        if y_last - y > y_jump: # big gap; start new entry
+        if y_last - y > y_jump:  # big gap; start new entry
             # Add last chunk to entries list.
             chunks_by_entry.append(entry_chunks)
             # Reset current chunks list.
             entry_chunks = [c]
-        else: # small gap; add to current entry
+        else:  # small gap; add to current entry
             entry_chunks.append(c)
         y_last = y
     return chunks_by_entry
+
 
 def show_chunks(chunks):
     for c in chunks:
@@ -264,6 +287,7 @@ def show_chunks(chunks):
         print(round(c[1][4], 1), round(c[1][5], 1), t, c[2].get('/BaseFont'))
     print()
 
+
 def clean_words(set_of_words):
     set_of_clean_words = set()
     for w in set_of_words:
@@ -272,20 +296,23 @@ def clean_words(set_of_words):
             set_of_clean_words.add(w)
     return set_of_clean_words
 
+
 def clean_text_chunk(text):
-    """ Strip (i.e. from the ends) all non-word characters & remove numbers. """
+    """ Strip (i.e. from the ends) all non-word characters & remove numbers.
+    """
     extras_group = r'[♦,.;:!?)\[\]-]'
-    text = re.sub(r'[0-9]', '', text) # remove numbers
+    text = re.sub(r'[0-9]', '', text)  # remove numbers
     text = text.strip()
-    text = re.sub(r'\W*(.+)\W*', r'\1', text) # strip non-word chars
+    text = re.sub(r'\W*(.+)\W*', r'\1', text)  # strip non-word chars
     text = text.strip()
-    text = re.sub(rf'^{extras_group}+', '', text) # remove punctuation from the beginning
+    text = re.sub(rf'^{extras_group}+', '', text)  # rm punct. from the begin.
     text = text.strip()
-    text = re.sub(rf'{extras_group}+$', '', text) # remove punctuation from the end
+    text = re.sub(rf'{extras_group}+$', '', text)  # rm punct. from the end
     text = text.strip()
-    text = re.sub(r'^I+(?!=[a-z])', '', text) # remove Roman numerals
+    text = re.sub(r'^I+(?!=[a-z])', '', text)  # remove Roman numerals
     text = text.strip()
     return text
+
 
 def get_pronunciation_guides(chunks_by_page):
     ct = 0
@@ -294,9 +321,10 @@ def get_pronunciation_guides(chunks_by_page):
         for c in chunks:
             pfont = '/FGMFOL+LanguageLanguageSILDoulosBold'
             if c[2] is not None and c[2].get('/BaseFont') == pfont:
-                ct +=1
+                ct += 1
                 prons.add(c[0])
     return ct, prons
+
 
 def get_args():
     parser = argparse.ArgumentParser()
@@ -330,6 +358,7 @@ def get_args():
     )
     return parser.parse_args()
 
+
 def main():
     args = get_args()
     pdf_file = args.file[0].expanduser().resolve()
@@ -358,14 +387,18 @@ def main():
     # Set extraction range.
     pgi_i = 0
     pgi_f = len(pdf_obj.pages) - 1
-    if len(args.page_range) > 1:
+    if args.page_range and len(args.page_range) > 1:
         pgi_i = args.page_range[0] - 1
         pgi_f = args.page_range[1] - 1
     pg_range = [pgi_i, pgi_f]
 
     # Extract info from PDF.
-    # print(pdf_obj.pages[20].extract_text()) # finds all text, but hard to filter for Sango
-    sango_chunks_by_page = (get_sango_chunks_by_page(p) for p in pdf_obj.pages[pg_range[0]:pg_range[1]+1])
+    # print(pdf_obj.pages[20].extract_text())
+    # finds all text, but hard to filter for Sango
+    sango_chunks_by_page = (
+        get_sango_chunks_by_page(p)
+        for p in pdf_obj.pages[pg_range[0]:pg_range[1]+1]
+    )
 
     if args.num_prons:
         ct, prons = get_pronunciation_guides(sango_chunks_by_page)
@@ -374,9 +407,6 @@ def main():
         print(f"unique terms: {len(prons)}")
         print(f"total terms:  {ct}")
         exit()
-
-    # chunks_by_entry = split_chunks_into_entries(sorted_chunks)
-    # for e in chunks_by_entry:
 
     lexicon = Lexicon()
     wordlist = set()
@@ -389,8 +419,8 @@ def main():
         dico = DicoPart(chunks)
         for w in dico.all_words:
             wordlist.add(w)
-        for g, ps in dico.lexicon_entries.items():
-            lexicon.add_entry((g, ps))
+        for glo, pos in dico.lexicon_entries.items():
+            lexicon.add_entry((glo, pos))
 
     if args.check:
         exit()
@@ -398,9 +428,9 @@ def main():
     if args.wordlist:
         for w in sango_sort(list(wordlist)):
             print(w)
-        exit()
+    else:  # print lexicon entries
+        print(lexicon.get_output_text())
 
-    print(lexicon.get_output_text())
 
 if __name__ == '__main__':
     main()
