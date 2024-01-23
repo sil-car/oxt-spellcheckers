@@ -2,7 +2,7 @@
 
 ## Downloads
 
-Users can download the spellchecker from
+Users can download the Sango spellchecker from
 [its page on the LibreOffice Extensions site](https://extensions.libreoffice.org/en/extensions/show/34153).
 
 ## Using an OXT extension.
