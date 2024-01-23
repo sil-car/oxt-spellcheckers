@@ -7,11 +7,9 @@
 #   - $ man hunspell
 #   - $ hunspell -h
 
-# script_path="$(realpath "$0")"
-# script_dir_path="$(dirname "$script_path")"
 
 show_usage() {
-    echo "usage: $0 [-h] | [-d DESC_FILE] AFF_FILE"
+    echo "usage: $0 [-h] | [-d /PATH/TO/DESCRIPTION.XML] AFF_FILE"
 }
 
 while getopts ":d:h" o; do
@@ -103,7 +101,13 @@ unzip "$oxt_file"
 
 # Update description.xml.
 if [[ -n $desc_file ]]; then # use provided file
+    # Copy file.    
     cp "$desc_file" "$temp_dir"
+    # Update version string in copied description.xml.
+    xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
+        -N xlink="http://www.w3.org/1999/xlink" \
+        --update "//ns:description/ns:version/@value" --value "$ver" \
+        "${temp_dir}/$(basename "$desc_file")"
 else # modify generated file
     # Add reference to French LICENSE file.
     xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
