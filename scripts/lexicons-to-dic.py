@@ -5,6 +5,7 @@
 """
 
 import sys
+import unicodedata
 from pathlib import Path
 
 from tools import sango_sort
@@ -32,7 +33,7 @@ def main():
         for ll in lex_lines:
             words, ps = ll.split('\t')
             wd1 = words.split(' ')[0]
-            line_text = f"{wd1}"
+            line_text = unicodedata.normalize('NFD', wd1)
 
             # Add affix markers to entries.
             affixes = set()
