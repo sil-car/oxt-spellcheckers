@@ -126,6 +126,5 @@ def replace_in_list(arr, find, replace):
     base = 0
     for c in range(arr.count(find)):
         offset = arr.index(find, base)
-        eprint(f"found: {arr[offset]}")
         arr[offset] = replace
         base = offset + 1
