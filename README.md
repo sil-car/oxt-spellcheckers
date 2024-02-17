@@ -38,7 +38,6 @@ Users can download the Sango spellchecker from
    1. Include all affixes and their usage rules.
 1. Convert basic lexicon file(s) to DIC file using affixes from AFF file; e.g. `scripts/make-sango-dic.py`
 1. Build OXT file; e.g. `scripts/aff-dic-to-oxt.sh`
-1. Update download link on this page.
 1. Upload OXT file to [extensions.libreoffice.org](https://extensions.libreoffice.org).
 
 ## References
