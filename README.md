@@ -36,8 +36,8 @@ Users can download the Sango spellchecker from
    1. Consider adding additional wordlist files and/or including their parts of speech.
 1. Prepare AFF file.
    1. Include all affixes and their usage rules.
-1. Convert basic lexicon file(s) to DIC file using affixes from AFF file; e.g. `scripts/make-sango-dic.py`
-1. Build OXT file; e.g. `scripts/aff-dic-to-oxt.sh`
+1. Convert basic lexicon file(s) to DIC file using affixes from AFF file; e.g. `scripts/make-sango-dic.py *-lexicon.txt *-wordlist.txt`
+1. Build OXT file; e.g. `scripts/aff-dic-to-oxt.sh -d description.xml sg-CF.aff`
 1. Upload OXT file to [extensions.libreoffice.org](https://extensions.libreoffice.org).
 
 ## References
