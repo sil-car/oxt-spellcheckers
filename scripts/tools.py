@@ -120,3 +120,12 @@ def sango_sort(in_list):
 def str_to_words(text_string):
     raw_words = text_string.split(' ')
     return raw_words_to_nfd(raw_words)
+
+
+def replace_in_list(arr, find, replace):
+    base = 0
+    for c in range(arr.count(find)):
+        offset = arr.index(find, base)
+        eprint(f"found: {arr[offset]}")
+        arr[offset] = replace
+        base = offset + 1
