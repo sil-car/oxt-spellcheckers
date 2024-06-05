@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
-import unicodedata
+# import unicodedata
 
 from pathlib import Path
 
@@ -26,8 +26,8 @@ for child in dir.iterdir():
         continue
     with child.open() as f:
         lines = f.readlines()
-    for l in lines:
-        wds = l.split()
+    for ln in lines:
+        wds = ln.split()
         nfd_wds = tools.raw_words_to_nfd(wds)
         words.update(nfd_wds)
 

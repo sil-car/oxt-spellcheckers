@@ -13,22 +13,25 @@ def get_xml_tree(file_object):
     parser = etree.XMLParser(remove_blank_text=True)
     return etree.parse(str(file_object), parser)
 
+
 def get_lift_entries(xml_tree):
     # Retrieve raw data.
-    entries = xml_tree.findall(f'.//entry')
+    entries = xml_tree.findall('.//entry')
     # Discard multi-word entries.
-    single_entries = [e for e in entries if len(get_lexical_unit_text(e).split()) == 1]
+    single_entries = [e for e in entries if len(get_lexical_unit_text(e).split()) == 1]  # noqa: E501
     # Discard non-word entries.
     non_letters = ['*', '-', 'a', 'a-']
     word_entries = [
         e for e in single_entries if (
-            get_lexical_unit_text(e)[0] not in non_letters and get_lexical_unit_text(e)[:2] not in non_letters
+            get_lexical_unit_text(e)[0] not in non_letters and get_lexical_unit_text(e)[:2] not in non_letters  # noqa: E501
         )
     ]
     return word_entries
 
+
 def get_lexical_unit_text(entry):
-    return entry.findall(f"./lexical-unit/form/text")[0].text
+    return entry.findall("./lexical-unit/form/text")[0].text
+
 
 def get_entry_data(entry):
     """
@@ -37,9 +40,10 @@ def get_entry_data(entry):
         - [senses]
             - ./sense/grammatical-info[@value=*]
     """
-    g_info = [g.values()[0] for g in entry.findall(f".//grammatical-info[@value]")]
-    g_info = list(set(g_info)) # remove dupes
+    g_info = [g.values()[0] for g in entry.findall(".//grammatical-info[@value]")]  # noqa: E501
+    g_info = list(set(g_info))  # remove dupes
     return {get_lexical_unit_text(entry): g_info}
+
 
 def pretty_print_xml(xml_tree):
     print(
@@ -48,11 +52,12 @@ def pretty_print_xml(xml_tree):
         ).decode().rstrip()
     )
 
+
 def main():
     if len(sys.argv) > 1:
         lift_file = Path(sys.argv[1]).expanduser().resolve()
     else:
-        print(f"ERROR: Need to pass LIFT file as 1st argument.")
+        print("ERROR: Need to pass LIFT file as 1st argument.")
         exit(1)
 
     cmd = None
@@ -71,7 +76,7 @@ def main():
         outfile = Path('lexicon.txt')
         entries = get_lift_entries(xml)
         wordlist = [list(get_entry_data(e).keys())[0] for e in entries]
-        wordlist = list(set(wordlist)) # remove dupes
+        wordlist = list(set(wordlist))  # remove dupes
         wordlist.sort()
         data = []
         for w in wordlist:
@@ -87,6 +92,7 @@ def main():
                         f.write(f"{k}\t{' '.join(v)}\n")
                     else:
                         f.write(f"{k}\n")
+
 
 if __name__ == '__main__':
     main()

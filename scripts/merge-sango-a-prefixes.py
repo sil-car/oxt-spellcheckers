@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
-"""Find plural words from sango DIC file and update the singular forms to include
-plural prefixes."""
+"""Find plural words from sango DIC file and update the singular forms to
+include plural prefixes.
+"""
 
-import re
+# import re
 import sys
 
 from pathlib import Path
@@ -17,10 +18,11 @@ outfile = infile.with_name(f"{infile.stem}_mod.dic")
 with infile.open() as f:
     infile_lines = f.readlines()
 
-words = [l.strip() for l in infile_lines]
-words = words[1:] # remove first line word count
-possible_plurals = [w for w in words if w[0] == 'a' or w[0] == 'â' or w[:2] == 'a-' or w[:2] == 'â-']
-possible_plurals = [p for p in possible_plurals if len(p) > 1] # remove single-letter items
+words = [ln.strip() for ln in infile_lines]
+words = words[1:]  # remove first line word count
+possible_plurals = [w for w in words if w[0] == 'a' or w[0] == 'â' or w[:2] == 'a-' or w[:2] == 'â-']  # noqa: E501
+# Remove single-letter items.
+possible_plurals = [p for p in possible_plurals if len(p) > 1]
 
 updated_words = words.copy()
 plurals = []

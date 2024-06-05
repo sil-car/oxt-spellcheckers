@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
 
-""" Convert ILA's "Lexique de l'urbanisme" document (exported as text) to a basic lexicon format:
-        i.e. [word]\t[[parts of speech] [...]]
+""" Convert ILA's "Lexique de l'urbanisme" document (exported as text) to a
+basic lexicon format:
+    i.e. [word]\t[[parts of speech] [...]]
 """
 
-import regex as re
+# import regex as re
 # import re
 import sys
 import unicodedata
-import unidecode
+# import unidecode
 
 from pathlib import Path
 
@@ -16,7 +17,7 @@ from tools import Entry
 from tools import eprint
 # from tools import key_from_value
 from tools import Lexicon
-from tools import sango_sort
+# from tools import sango_sort
 
 """
 Pd. = pandôo (noun)
@@ -25,6 +26,7 @@ Ppd. = tatë pandôo (compund noun; treat like noun)
 Ps. = pasûndâ (adjective)
 Ppl. = penze palî (compound verb; treat like verb)
 """
+
 
 class IlaEntry(Entry):
     def __init__(self, ila_lines=None):
@@ -49,8 +51,8 @@ class IlaEntry(Entry):
         LEXICON:
             dakpälë  Noun
         """
-        for l in self.input_lines:
-            for w in l.split():
+        for ln in self.input_lines:
+            for w in ln.split():
                 # Convert to lowercase; take only 1st part if hyphenated.
                 w = w.split('-')[0].lower()
                 # Use only 1st word as gloss_sg.
@@ -70,8 +72,8 @@ def main():
 
     lexicon = Lexicon()
     entry_lines = None
-    for l in ila_lines:
-        nfd_l = unicodedata.normalize('NFD', l).rstrip()
+    for ln in ila_lines:
+        nfd_l = unicodedata.normalize('NFD', ln).rstrip()
         if len(nfd_l) < 2:
             # Skip empty and single-letter lines.
             continue
@@ -83,7 +85,7 @@ def main():
                 if entry.gloss_sg not in glosses:
                     lexicon.entries.add(entry)
             entry_lines = [nfd_l]
-        else: # continuation line
+        else:  # continuation line
             entry_lines.append(nfd_l.lstrip())
     entry = IlaEntry(entry_lines)
     glosses = [e.gloss_sg for e in lexicon.entries]

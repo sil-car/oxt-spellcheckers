@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
-""" Convert a text file with lines in "ILA format" (sango gloss : french gloss) to TSV format.
+""" Convert a text file with lines in "ILA format" (sango gloss : french gloss)
+to TSV format.
 """
 
 import csv
 import sys
 
 from pathlib import Path
+
 
 def main():
     txt_file = Path(sys.argv[1])
@@ -30,6 +32,7 @@ def main():
     with tsv_file.open('w', newline='') as f:
         writer = csv.writer(f, dialect='excel-tab')
         writer.writerows(tsv_rows)
+
 
 if __name__ == '__main__':
     main()

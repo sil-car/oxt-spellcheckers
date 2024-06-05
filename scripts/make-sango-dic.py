@@ -5,8 +5,10 @@
     Assumes the same affixes as defined in the sg-CF.aff file.
 """
 
-import sys
+import argparse
+# import sys
 import unicodedata
+import unidecode
 from pathlib import Path
 
 from tools import replace_in_list
@@ -14,18 +16,31 @@ from tools import sango_sort
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Error: Need at least 1 lexicon or wordlist file.")
-        exit(1)
-    elif sys.argv[1] in ['-h', '--help']:
-        print(
-            f"usage: {sys.argv[0]} INFILE [INFILE...]\n\n"
-            "DIC contents are printed to stdout"
-        )
-        exit()
+    parser = argparse.ArgumentParser(
+        description='DIC contents are printed to STDOUT'
+    )
+    parser.add_argument('infiles', metavar='FILEPATH', nargs='+')
+    parser.add_argument('-p', '--permissive', action='store_true')
+    args = parser.parse_args()
+
+    # Set whether or not to create permissive (non-1984) spellchecker.
+    permissive = False
+    if args.permissive:
+        permissive = True
+
+    # if len(sys.argv) < 2:
+    #     print("Error: Need at least 1 lexicon or wordlist file.")
+    #     exit(1)
+    # elif sys.argv[1] in ['-h', '--help']:
+    #     print(
+    #         f"usage: {sys.argv[0]} INFILE [INFILE...]\n\n"
+    #         "DIC contents are printed to stdout"
+    #     )
+    #     exit()
 
     entry_lines = []
-    for infile in sys.argv[1:]:
+    # for infile in sys.argv[1:]:
+    for infile in args.infiles:
         infile = Path(infile)
         if not infile.is_file():
             print(f"Skipping non-file argument: {infile}")
@@ -39,10 +54,18 @@ def main():
             if filetype == 'wordlist':
                 wd1 = ll.strip()
                 line_text = unicodedata.normalize('NFD', wd1)
+                if permissive:  # remove diacritics
+                    line_text = unidecode.unidecode(line_text)
             else:
-                words, ps = ll.split('\t')
+                parts = ll.split('\t')
+                if len(parts) < 2:  # no part of speech given
+                    continue
+                words = parts[0]
+                ps = parts[1]
                 wd1 = words.split(' ')[0]
                 line_text = unicodedata.normalize('NFD', wd1)
+                if permissive:  # remove diacritics
+                    line_text = unidecode.unidecode(line_text)
 
                 # Add affix markers to entries.
                 affixes = set()
@@ -50,9 +73,9 @@ def main():
                     affixes.add("A")  # plural prefix
                 if 'Noun' in ps:
                     affixes.add("A")  # plural prefix
-                if 'Verb' in ps:
+                if not permissive and 'Verb' in ps:
                     affixes.add("B")  # noun-subject prefix
-                if wd1 in ['mbï', 'mo', 'âla', 'lo', 'ï']:
+                if not permissive and wd1 in ['mbï', 'mo', 'âla', 'lo', 'ï']:  # noqa: E501
                     affixes.add("M")  # -mvenî suffix
                 if len(affixes) > 0:
                     string = '/'

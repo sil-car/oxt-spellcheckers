@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-""" Convert Mme KOYT's lexicon document (exported as text) to a basic lexicon format:
-        i.e. [word] [[parts of speech] [...]]
+""" Convert Mme KOYT's lexicon document (exported as text) to a basic lexicon
+format:
+    i.e. [word] [[parts of speech] [...]]
 """
 
 import regex as re
@@ -14,9 +15,9 @@ from pathlib import Path
 
 from tools import Entry
 from tools import eprint
-from tools import key_from_value
+# from tools import key_from_value
 from tools import Lexicon
-from tools import sango_sort
+# from tools import sango_sort
 
 
 class KoytEntry(Entry):
@@ -67,24 +68,26 @@ class KoytEntry(Entry):
                           2 to rain abundantly (Verb)
         """
         def parse_part_of_speech(self, string):
-            m = re.search(r'\(\w+\)', string) # re's \w doesn't work with NFD chars, but regex's does
+            # re's \w doesn't work with NFD chars, but regex's does
+            m = re.search(r'\(\w+\)', string)
             # Remove parentheses.
             if m:
                 m = m.group(0)[1:-1]
                 ps = m.split(',')
                 # print(ps)
                 for p in ps:
-                     # "lower" & "unidecode" avoid inconsistencies in original text.
-                    k = self.parts_of_speech_dict.get(unidecode.unidecode(p.strip().lower()))
+                    # "lower" & "unidecode" avoid inconsistencies in original
+                    # text.
+                    k = self.parts_of_speech_dict.get(unidecode.unidecode(p.strip().lower()))  # noqa: E501
                     if k:
                         self.parts_of_speech.add(k)
                     else:
                         eprint(f"No corresponding Part of Speech for \"{p}\"")
 
-        for l in self.input_lines:
-            if not ':' in l:
+        for ln in self.input_lines:
+            if ':' not in ln:
                 continue
-            sango_text = l.split(':')[0]
+            sango_text = ln.split(':')[0]
             parse_part_of_speech(self, sango_text)
             if re.search(r'^[a-z]', sango_text.lower()):
                 # Line starts with Sango gloss.
@@ -102,8 +105,8 @@ def main():
 
     lexicon = Lexicon()
     entry_lines = None
-    for l in koyt_lines:
-        nfd_l = unicodedata.normalize('NFD', l).strip()
+    for ln in koyt_lines:
+        nfd_l = unicodedata.normalize('NFD', ln).strip()
         if len(nfd_l) < 1:
             # Skip empty lines.
             continue

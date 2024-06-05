@@ -2,7 +2,7 @@
 
 import re
 import sys
-import unicodedata
+# import unicodedata
 
 from pathlib import Path
 
@@ -14,7 +14,7 @@ from tools import write_sorted_set
 repo_dir = Path(__file__).resolve().parents[1]
 
 if len(sys.argv) < 2:
-    print(f"Error: No lexicon file given.")
+    print("Error: No lexicon file given.")
     exit(1)
 elif sys.argv[1] == '-h' or sys.argv[1] == '--help':
     print(f"Usage: {sys.argv[0]} LEXICON_FILE.TXT")
@@ -29,7 +29,7 @@ else:
     exit(1)
 
 input_lexicon = input_file.name.split('_')[1]
-output_dir = input_file.parents[1] # documents/
+output_dir = input_file.parents[1]  # documents/
 oxt_dir = output_dir.parent
 lang = oxt_dir.name.split('_')[0]
 output_file = output_dir / f"{input_file.stem}-only-{lang}.txt"
@@ -39,15 +39,18 @@ if input_lexicon == 'lex-sg.txt':
 elif input_lexicon == 'lex-en.txt':
     index = 1
 else:
-    print(f"Error: File name needs either \"_lex-sg.txt\" or \"_lex-en.txt\" appended to the end.")
+    print(
+        "Error: File name needs either \"_lex-sg.txt\" or \"_lex-en.txt\""
+        " appended to the end."
+    )
     exit(1)
 
 with input_file.open() as f:
     lines = f.readlines()
 
 output_words = set()
-for l in lines:
-    parts = l.split(':')
+for ln in lines:
+    parts = ln.split(':')
     if len(parts) > index:
         keep_part = parts[index].strip()
 
