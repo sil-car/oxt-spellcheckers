@@ -9,14 +9,18 @@
 
 
 show_usage() {
-    echo "usage: $0 [-h] | [-d /PATH/TO/DESCRIPTION.XML] AFF_FILE"
+    echo "usage: $0 [-h] | [-d /PATH/TO/DESCRIPTION.XML] [-D /PATH/TO/DICTIONARIES.XCU] AFF_FILE"
 }
 
-while getopts ":d:h" o; do
+while getopts ":d:D:h" o; do
     case "${o}" in
         d)
-            desc_str=${OPTARG}
+            desc_str="$OPTARG"
             desc_file="$(realpath "$desc_str")"
+            ;;
+        D)
+            dict_str="$OPTARG"
+            dict_file="$(realpath "$dict_str")"
             ;;
         h)
             show_usage
@@ -47,6 +51,7 @@ if [[ -n $1 ]]; then # check 1st argument
     fi
 elif [[ -n $(find "$PWD" -maxdepth 1 -name '*.aff') ]]; then # check PWD
     oxt_dir="$PWD"
+    aff_file=$(find "$PWD" -maxdepth 1 -name '*.aff' | head -n1)
 else
     echo "Error: No AFF file given nor found in $PWD"
     exit 1
@@ -57,7 +62,9 @@ yyyy=$(date +%Y)
 ver=$(date +%Y.%m.%d)
 
 name=$(basename "$oxt_dir")
-langtag=$(echo "$name" | awk -F'_' '{print $1}')
+# langtag=$(echo "$name" | awk -F'_' '{print $1}')
+langtag=$(basename "$aff_file")
+langtag=${langtag%.aff}
 lang=$(echo "$name" | awk -F'_' '{print $2}')
 
 oxt_file="${oxt_dir}/dict-${lang}-v${ver}.oxt"
@@ -132,8 +139,19 @@ else # modify generated file
         "description.xml"
 fi
 
+# Update dictionaries.xcu.
+if [[ -n "$dict_file" ]]; then
+    # Copy file.    
+    cp "$dict_file" "$temp_dir"
+fi
+
 # Add updated file(s) into OXT.
-zip "$oxt_file" "description.xml"
+if [[ -f "description.xml" ]]; then
+    zip "$oxt_file" "description.xml"
+fi
+if [[ -f "dictionaries.xcu" ]]; then
+    zip "$oxt_file" "dictionaries.xcu"
+fi
 cp "${oxt_dir}/LICENSES-fr.txt" "$temp_dir"
 zip "$oxt_file" "LICENSES-fr.txt"
 

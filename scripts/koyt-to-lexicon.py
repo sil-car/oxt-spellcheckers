@@ -119,7 +119,7 @@ def main():
             entry_lines.append(nfd_l)
     # Add final entry.
     lexicon.entries.add(KoytEntry(entry_lines))
-    
+
     # outdir = koyt_lexicon_file.parents[2]
     # outfile = outdir / "KOYT lexicon.txt"
     # outfile.write_text(lexicon.get_output_text())

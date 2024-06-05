@@ -6,13 +6,12 @@
 """
 
 import argparse
-# import sys
 import unicodedata
-import unidecode
 from pathlib import Path
 
 from tools import replace_in_list
 from tools import sango_sort
+from tools import strip_diacritics
 
 
 def main():
@@ -20,23 +19,13 @@ def main():
         description='DIC contents are printed to STDOUT'
     )
     parser.add_argument('infiles', metavar='FILEPATH', nargs='+')
-    parser.add_argument('-p', '--permissive', action='store_true')
+    parser.add_argument('-s', '--simple', action='store_true')
     args = parser.parse_args()
 
-    # Set whether or not to create permissive (non-1984) spellchecker.
-    permissive = False
-    if args.permissive:
-        permissive = True
-
-    # if len(sys.argv) < 2:
-    #     print("Error: Need at least 1 lexicon or wordlist file.")
-    #     exit(1)
-    # elif sys.argv[1] in ['-h', '--help']:
-    #     print(
-    #         f"usage: {sys.argv[0]} INFILE [INFILE...]\n\n"
-    #         "DIC contents are printed to stdout"
-    #     )
-    #     exit()
+    # Set whether or not to create simple (non-1984) spellchecker.
+    simple = False
+    if args.simple:
+        simple = True
 
     entry_lines = []
     # for infile in sys.argv[1:]:
@@ -54,8 +43,8 @@ def main():
             if filetype == 'wordlist':
                 wd1 = ll.strip()
                 line_text = unicodedata.normalize('NFD', wd1)
-                if permissive:  # remove diacritics
-                    line_text = unidecode.unidecode(line_text)
+                if simple:  # remove diacritics & make lowercase
+                    line_text = strip_diacritics(line_text).lower()
             else:
                 parts = ll.split('\t')
                 if len(parts) < 2:  # no part of speech given
@@ -64,8 +53,8 @@ def main():
                 ps = parts[1]
                 wd1 = words.split(' ')[0]
                 line_text = unicodedata.normalize('NFD', wd1)
-                if permissive:  # remove diacritics
-                    line_text = unidecode.unidecode(line_text)
+                if simple:  # remove diacritics & make lowercase
+                    line_text = strip_diacritics(line_text).lower()
 
                 # Add affix markers to entries.
                 affixes = set()
@@ -73,9 +62,9 @@ def main():
                     affixes.add("A")  # plural prefix
                 if 'Noun' in ps:
                     affixes.add("A")  # plural prefix
-                if not permissive and 'Verb' in ps:
+                if not simple and 'Verb' in ps:
                     affixes.add("B")  # noun-subject prefix
-                if not permissive and wd1 in ['mbï', 'mo', 'âla', 'lo', 'ï']:  # noqa: E501
+                if not simple and wd1 in ['mbï', 'mo', 'âla', 'lo', 'ï']:  # noqa: E501
                     affixes.add("M")  # -mvenî suffix
                 if len(affixes) > 0:
                     string = '/'

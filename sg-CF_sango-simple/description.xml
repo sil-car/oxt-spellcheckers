@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<description xmlns="http://openoffice.org/extensions/description/2006" xmlns:dep="http://openoffice.org/extensions/description/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <identifier value="org.sil.sg-CF.spellcheck-simple"/>
+  <version value="2024.06.05"/>
+  <platform value="all"/>
+  <registration>
+    <simple-license accept-by="admin" suppress-on-update="true">
+      <license-text xlink:href="LICENSES-en.txt" lang="en"/>
+      <license-text xlink:href="LICENSES-fr.txt" lang="fr"/>
+    </simple-license>
+  </registration>
+  <dependencies>
+    <OpenOffice.org-minimal-version value="3.0" dep:name="OpenOffice.org 3.0"/>
+  </dependencies>
+  <publisher>
+    <name xlink:href="https://github.com/sil-car/oxt-spellcheckers" lang="en">SIL International (nate_marti@sil.org)</name>
+  </publisher>
+  <display-name>
+    <name lang="en">Sango Spell Checker (simple)</name>
+    <name lang="en">Correcteur d'orthographe, Sango (simple)</name>
+  </display-name>
+</description>

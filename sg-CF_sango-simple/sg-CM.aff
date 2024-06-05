@@ -1,0 +1,74 @@
+
+SET UTF-8
+
+WORDCHARS -
+
+# decomposed followed by composed
+ICONV 48
+ICONV à a
+ICONV â a
+ICONV Â A
+ICONV ä a
+ICONV Ä A
+ICONV ç c
+ICONV è e
+ICONV é e
+ICONV ê e
+ICONV Ê E
+ICONV ë e
+ICONV Ë E
+ICONV î i
+ICONV Î I
+ICONV ï i
+ICONV Ï I
+ICONV ô o
+ICONV Ô O
+ICONV ö o
+ICONV Ö O
+ICONV û u
+ICONV Û U
+ICONV ü u
+ICONV Ü U
+ICONV à a
+ICONV â a
+ICONV Â A
+ICONV ä a
+ICONV Ä A
+ICONV ç c
+ICONV è e
+ICONV é e
+ICONV ê e
+ICONV Ê E
+ICONV ë e
+ICONV Ë E
+ICONV î i
+ICONV Î I
+ICONV ï i
+ICONV Ï I
+ICONV ô o
+ICONV Ô O
+ICONV ö o
+ICONV Ö O
+ICONV û u
+ICONV Û U
+ICONV ü u
+ICONV Ü U
+
+TRY naitgkeosbdlmyurzfpBwNSvADGMWLYFhKHIPTUZ
+
+MAXNGRAMSUGS 5
+MAXDIFF 10
+ONLYMAXDIFF
+
+REP 7
+REP l r
+REP r l
+REP ndj nz
+REP ^ndjoni$ nzoni
+REP ecole dambeti
+REP merci singila
+REP ordinateur kombuta
+
+PFX A N 2
+PFX A   0  a    [^aeiou]
+PFX A   0  a-   [aeiou]

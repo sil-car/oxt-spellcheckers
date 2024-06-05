@@ -128,3 +128,10 @@ def replace_in_list(arr, find, replace):
         offset = arr.index(find, base)
         arr[offset] = replace
         base = offset + 1
+
+
+def strip_diacritics(text):
+    return ''.join(
+        c for c in unicodedata.normalize('NFD', text)
+        if unicodedata.category(c) != 'Mn'
+    )
