@@ -2,3 +2,4 @@ lxml
 pypdf
 regex
 Unidecode
+git+https://github.com/silnrsi/oxttools.git

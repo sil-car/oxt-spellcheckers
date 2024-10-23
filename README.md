@@ -30,6 +30,13 @@ Users can download the Sango spellchecker from
 
 ## Creating an OXT extension.
 
+1. Ensure dependencies are installed.
+  ```
+  $ python3 -m venv env
+  (env)$ python -m pip install -r requirements.txt
+  (env)$ which makeoxt
+  /home/user/oxt-spellcheckers/env/bin/makeoxt
+  ```
 1. Prepare basic lexicon file.
    1. Convert original lexicon(s) to plaintext or LIFT files.
    1. Convert file(s) to basic lexicon format; e.g. each line has: `word[tab]Noun Verb Adjective`
@@ -38,6 +45,7 @@ Users can download the Sango spellchecker from
    1. Include all affixes and their usage rules.
 1. Convert basic lexicon file(s) to DIC file using affixes from AFF file; e.g. `scripts/make-sango-dic.py *-lexicon.txt *-wordlist.txt`
 1. Build OXT file; e.g. `scripts/aff-dic-to-oxt.sh -d description.xml sg-CF.aff`
+1. Install OXT file: `unopkg add --suppress-license --force ./dict-sango-*`
 1. Upload OXT file to [extensions.libreoffice.org](https://extensions.libreoffice.org).
 
 ## References
