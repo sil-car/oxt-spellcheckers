@@ -416,11 +416,11 @@ def main():
             show_chunks(chunks)
             continue
 
-        dico = DicoPart(chunks)
-        for w in dico.all_words:
-            wordlist.add(w)
-        for glo, pos in dico.lexicon_entries.items():
-            lexicon.add_entry((glo, pos))
+        dico_part = DicoPart(chunks)
+        for w in dico_part.all_words:
+            wordlist.add(w.lower())
+        for glo, pos in dico_part.lexicon_entries.items():
+            lexicon.add_entry((glo.lower(), pos))
 
     if args.check:
         exit()
