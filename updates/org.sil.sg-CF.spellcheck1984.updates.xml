@@ -3,7 +3,9 @@
   <identifier value="org.sil.sg-CF.spellcheck1984" />
   <version value="2024.10.23" />
   <update-download>
+    <!-- Doesn't work because of redirect to CDN link without clear filename. -->
     <!-- <src xlink:href="https://github.com/sil-car/oxt-spellcheckers/releases/download/sg_1984-v2024.10.23/dict-sango-1984-v2024.10.23.oxt" /> -->
+    <!-- Works, but requires waiting on extension to be published at extensions.libreoffice.org. -->
     <!-- <src xlink:href="https://extensions.libreoffice.org/assets/downloads/5022/1729699460/dict-sango-1984-v2024.10.23.oxt" /> -->
     <src xlink:href="https://api.github.com/repos/sil-car/oxt-spellcheckers/releases/assets/201240737" />
   </update-download>
