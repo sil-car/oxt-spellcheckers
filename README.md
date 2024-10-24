@@ -63,9 +63,9 @@ Users can download the Sango spellchecker from
 1. Use GitHub API to get permalink:
    ```
    # Find correct release and related .assets[0].url
-   curl -s https://api.github.com/repos/sil-car/oxt-spellcheckers/releases | jq
+   curl -Ls https://api.github.com/repos/sil-car/oxt-spellcheckers/releases | jq '.[] | .tag_name, .assets.[0].url'
    ```
-1. Update `updates/<OXT-FILE>.updates.xml` with correct version and URL.
+1. Update `updates/<OXT-FILE>.updates.xml` with correct version and assets URL.
 1. Push updated XML file(s) to GitHub.
 
 ## References
