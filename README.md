@@ -44,21 +44,29 @@ Users can download the Sango spellchecker from
 1. Prepare AFF file.
    1. Include all affixes and their usage rules.
 1. Convert basic lexicon file(s) to DIC file using affixes from AFF file:
-  ```
-  # from sg-CF_sango-1948 for official orthography:
-  ../scripts/make-sango-dic.py *-lexicon.txt *-wordlist.txt > sg-CF.dic
-  # from sg-CF_sango-simple for more permissive, common orthography
-  ../scripts/make-sango-dic.py -s ../sg-CF_sango-1984/*-lexicon.txt ../sg-CF_sango-1984/*-wordlist.txt *-lexicon.txt *-wordlist.txt > sg-CM.dic
-  ```
+   ```
+   # from sg-CF_sango-1948 for official orthography:
+   ../scripts/make-sango-dic.py *-lexicon.txt *-wordlist.txt > sg-CF.dic
+   # from sg-CF_sango-simple for more permissive, common orthography
+   ../scripts/make-sango-dic.py -s ../sg-CF_sango-1984/*-lexicon.txt ../sg-CF_sango-1984/*-wordlist.txt *-lexicon.txt *-wordlist.txt > sg-CM.dic
+   ```
 1. Build OXT file:
-  ```
-  # from sg-CF_sango-1948 for official orthography:
-  ../scripts/aff-dic-to-oxt.sh -d description.xml sg-CF.aff
-  # from sg-CF_sango-simple for more permissive, common orthography
-  ../scripts/aff-dic-to-oxt.sh -d description.xml sg-CM.aff
-  ```
+   ```
+   # from sg-CF_sango-1948 for official orthography:
+   ../scripts/aff-dic-to-oxt.sh -d description.xml sg-CF.aff
+   # from sg-CF_sango-simple for more permissive, common orthography
+   ../scripts/aff-dic-to-oxt.sh -d description.xml sg-CM.aff
+   ```
 1. Install OXT file: `unopkg add --suppress-license --force ./dict-sango-*`
 1. Upload OXT file to [extensions.libreoffice.org](https://extensions.libreoffice.org).
+1. Release on GitHub.
+1. Use GitHub API to get permalink:
+   ```
+   # Find correct release and related .assets[0].url
+   curl -s https://api.github.com/repos/sil-car/oxt-spellcheckers/releases | jq
+   ```
+1. Update `updates/<OXT-FILE>.updates.xml` with correct version and URL.
+1. Push updated XML file(s) to GitHub.
 
 ## References
 
