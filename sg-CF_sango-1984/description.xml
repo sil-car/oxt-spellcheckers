@@ -24,6 +24,6 @@
     <src xlink:href="https://extensions.libreoffice.org/fr/extensions/show/34153" lang="fr" />
   </update-website> -->
   <update-information>
-    <src xlink:href="https://raw.githubusercontent.com/sil-car/oxt-spellcheckers/main/updates/org.sil.sg-CF.spellchecker1984.updates.xml" />
+    <src xlink:href="https://raw.githubusercontent.com/sil-car/oxt-spellcheckers/main/updates/org.sil.sg-CF.spellcheck1984.updates.xml" />
   </update-information>
 </description>
