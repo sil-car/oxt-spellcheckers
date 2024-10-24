@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<description xmlns="http://openoffice.org/extensions/update/2006" xmlns:dep="https://openoffice.org/extensions/description/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <identifier value="org.sil.sg-CF.spellcheck-simple" />
+  <version value="2024.10.23" />
+  <update-download>
+    <src xlink:href="https://api.github.com/repos/sil-car/oxt-spellcheckers/releases/assets/201246758" />
+  </update-download>
+  <publisher>
+    <name xlink:href="https://github.com/sil-car/oxt-spellcheckers" lang="en">SIL International (nate_marti@sil.org)</name>
+  </publisher>
+</description>
