@@ -59,7 +59,7 @@ Users can download the Sango spellchecker from
    ```
 1. Install OXT file: `unopkg add --suppress-license --force ./dict-sango-*`
 1. Upload OXT file to [extensions.libreoffice.org](https://extensions.libreoffice.org).
-1. Release on GitHub.
+1. Create a Release on GitHub.
 1. Use GitHub API to get permalink:
    ```
    # Find correct release and related .assets[0].url
