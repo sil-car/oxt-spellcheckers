@@ -122,11 +122,12 @@ def str_to_words(text_string):
     return raw_words_to_nfd(raw_words)
 
 
-def replace_in_list(arr, find, replace):
+def replace_in_list(arr, find_str, replace_str):
+    # TODO: Loops through the whole list. Is this necessary?
     base = 0
-    for c in range(arr.count(find)):
-        offset = arr.index(find, base)
-        arr[offset] = replace
+    for c in range(arr.count(find_str)):
+        offset = arr.index(find_str, base)
+        arr[offset] = replace_str
         base = offset + 1
 
 
