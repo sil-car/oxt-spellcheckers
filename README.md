@@ -46,9 +46,9 @@ Users can download the Sango spellchecker from
 1. Convert basic lexicon file(s) to DIC file using affixes from AFF file:
    ```
    # from sg-CF_sango-1948 for official orthography:
-   ../scripts/make-sango-dic.py *-lexicon.txt *-wordlist.txt > sg-CF.dic
+   ../scripts/make-sango-dic.py *lexicon.txt *wordlist.txt > sg-CF.dic
    # from sg-CF_sango-simple for more permissive, common orthography
-   ../scripts/make-sango-dic.py -s ../sg-CF_sango-1984/*-lexicon.txt ../sg-CF_sango-1984/*-wordlist.txt *-lexicon.txt *-wordlist.txt > sg-CM.dic
+   ../scripts/make-sango-dic.py -s ../sg-CF_sango-1984/*lexicon.txt ../sg-CF_sango-1984/*wordlist.txt *lexicon.txt *wordlist.txt > sg-CM.dic
    ```
 1. Build OXT file:
    ```
