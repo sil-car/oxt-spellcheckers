@@ -7,7 +7,7 @@
 | fûu | fou | Tract: Ala gi Yanga ti Nzapa | DicoPlus entry “interner” translates as the phrase ‘zîa na da tî fûu’. But the word ‘fûu’ does not appear in the spellchecker. | fixed in v2024.10.28 |
 | gi | chercher | Tract: Ala gi Yanga ti Nzapa | Entry in DicoPlus was skipped somehow. | not in scraped DicoPlus-wordlist.txt; investigation needed |
 | ï | nous | Tract: Ala gi Yanga ti Nzapa | Entry in DicoPlus is the other one (ë). Maybe we should add this anyway. | fixed in v2024.10.28 |
-| Jesus | Jésus | Tract: Ala gi Yanga ti Nzapa | Spellchecker marks ‘Jesus’ as incorrect; it proposes ‘Jésus’. ("Jésus" appears in DicoPlus in definition of "wandarä".) | |
+| Jesus | Jésus | Tract: Ala gi Yanga ti Nzapa | Spellchecker marks ‘Jesus’ as incorrect; it proposes ‘Jésus’. ("Jésus" appears in DicoPlus in definition of "wandarä".) | No change needed. |
 | kandâa | cependant (however) | Tract: Ala gi Yanga ti Nzapa | No occurrence of this word in DicoPlus. Entry of ‘cependant’ in DicoPlus is kamême or kamëme. KOYT says ‘kandâa’ is ‘however/while’. ||
 | kânga | fermer | Tract: Ala gi Yanga ti Nzapa | Entry in DicoPlus was skipped somehow. | fixed in v2024.10.28 |
 | kua | travail | Tract: Ala gi Yanga ti Nzapa | Entry in DicoPlus was skipped somehow. | fixed in v2024.10.24 |
