@@ -3,7 +3,8 @@
 ## Downloads
 
 Users can download the Sango spellchecker from
-[its page on the LibreOffice Extensions site](https://extensions.libreoffice.org/en/extensions/show/34153).
+[its page on the LibreOffice Extensions site](https://extensions.libreoffice.org/en/extensions/show/34153),
+or from this repo's Releases page.
 
 ## Using an OXT extension.
 
@@ -60,12 +61,8 @@ Users can download the Sango spellchecker from
 1. Install OXT file: `unopkg add --suppress-license --force ./dict-sango-*`
 1. Upload OXT file to [extensions.libreoffice.org](https://extensions.libreoffice.org).
 1. Create a Release on GitHub.
-1. Use GitHub API to get permalink:
-   ```
-   # Find correct release and related .assets[0].url
-   curl -Ls https://api.github.com/repos/sil-car/oxt-spellcheckers/releases | jq '.[] | .tag_name, .assets.[0].url'
-   ```
-1. Update `updates/<OXT-FILE>.updates.xml` with correct version and assets URL.
+1. Put locally built file without version number into `updates/`.
+1. Update `updates/<OXT-FILE>.updates.xml` with correct version number.
 1. Push updated XML file(s) to GitHub.
 
 ## References
