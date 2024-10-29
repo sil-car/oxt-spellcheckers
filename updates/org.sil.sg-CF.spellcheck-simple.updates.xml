@@ -3,9 +3,7 @@
   <identifier value="org.sil.sg-CF.spellcheck-simple" />
   <version value="2024.10.28" />
   <update-download>
-    <src xlink:href="https://github.com/sil-car/oxt-spellcheckers/raw/refs/heads/main/updates/dict-sango-simple.oxt" />
-    <!-- v2024.10.28 <src xlink:href="https://api.github.com/repos/sil-car/oxt-spellcheckers/releases/assets/202419035" /> -->
-    <!-- v2024.10.24: <src xlink:href="https://api.github.com/repos/sil-car/oxt-spellcheckers/releases/assets/201484652" /> -->
+    <src xlink:href="https://raw.githubusercontent.com/sil-car/oxt-spellcheckers/refs/heads/main/updates/dict-sango-simple.oxt" />
   </update-download>
   <publisher>
     <name xlink:href="https://github.com/sil-car/oxt-spellcheckers" lang="en">SIL International (nate_marti@sil.org)</name>
