@@ -1,7 +1,5 @@
 # Proprietary files
 */documents/originals/
-# Built OXTs
-*.oxt
 
 # LibreOffice lock files
 .~lock.*#
