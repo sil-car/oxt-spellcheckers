@@ -56,7 +56,7 @@ or from this repo's Releases page.
    ./scripts/update-oxt.py ./sg-CF_sango-1984/sg-CF.aff    # sango-1984
    ./scripts/update-oxt.py ./sg-CF_sango-simple/sg-CM.aff  # sango-simple
    ```
-1. Install OXT file: `unopkg add --suppress-license --force ./dict-sango-*`
+1. Install OXT file: `unopkg add --suppress-license --force ./updates/dict-sango-*`
 1. Upload OXT file to [extensions.libreoffice.org](https://extensions.libreoffice.org).
 1. Create a Release on GitHub.
 1. Push updated XML file(s) to GitHub.
