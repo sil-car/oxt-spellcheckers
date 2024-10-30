@@ -51,18 +51,14 @@ or from this repo's Releases page.
    # from sg-CF_sango-simple for more permissive, common orthography
    ../scripts/make-sango-dic.py -s ../sg-CF_sango-1984/*lexicon.txt ../sg-CF_sango-1984/*wordlist.txt *lexicon.txt *wordlist.txt > sg-CM.dic
    ```
-1. Build OXT file:
+1. Build/update OXT file(s):
    ```
-   # from sg-CF_sango-1948 for official orthography:
-   ../scripts/aff-dic-to-oxt.sh -d description.xml sg-CF.aff
-   # from sg-CF_sango-simple for more permissive, common orthography
-   ../scripts/aff-dic-to-oxt.sh -d description.xml sg-CM.aff
+   ./scripts/update-oxt.py ./sg-CF_sango-1984/sg-CF.aff    # sango-1984
+   ./scripts/update-oxt.py ./sg-CF_sango-simple/sg-CM.aff  # sango-simple
    ```
 1. Install OXT file: `unopkg add --suppress-license --force ./dict-sango-*`
 1. Upload OXT file to [extensions.libreoffice.org](https://extensions.libreoffice.org).
 1. Create a Release on GitHub.
-1. Put locally built file without version number into `updates/`.
-1. Update `updates/<OXT-FILE>.updates.xml` with correct version number.
 1. Push updated XML file(s) to GitHub.
 
 ## References
