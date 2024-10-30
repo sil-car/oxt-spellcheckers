@@ -1,12 +1,11 @@
-<?xml version='1.0' encoding='UTF-8'?>
 <description xmlns="http://openoffice.org/extensions/description/2006" xmlns:dep="http://openoffice.org/extensions/description/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <identifier value="org.sil.sg-CF.spellcheck-1984"/>
-  <version value="2023.11.08"/>
+  <identifier value="org.sil.sg-CF.spellcheck-simple"/>
+  <version value="2024.10.30"/>
   <platform value="all"/>
   <registration>
     <simple-license accept-by="admin" suppress-on-update="true">
-      <license-text xlink:href="LICENSES-en.txt" lang="en"/>
-      <license-text xlink:href="LICENSES-fr.txt" lang="fr"/>
+      <license-text xlink:href="LICENSE-en.txt" lang="en"/>
+      <license-text xlink:href="LICENSE-fr.txt" lang="fr"/>
     </simple-license>
   </registration>
   <dependencies>
@@ -16,10 +15,10 @@
     <name xlink:href="https://github.com/sil-car/oxt-spellcheckers" lang="en">SIL International (nate_marti@sil.org)</name>
   </publisher>
   <display-name>
-    <name lang="en">Sango Spell Checker (1984)</name>
-    <name lang="fr">Correcteur d'orthographe, Sango (1984)</name>
+    <name lang="en">Sango Spell Checker (simple)</name>
+    <name lang="fr">Correcteur d'orthographe, Sango (simple)</name>
   </display-name>
   <update-information>
-    <src xlink:href="https://raw.githubusercontent.com/sil-car/oxt-spellcheckers/main/updates/org.sil.sg-CF.spellcheck-1984.updates.xml" />
+    <src xlink:href="https://raw.githubusercontent.com/sil-car/oxt-spellcheckers/main/updates/org.sil.sg-CF.spellcheck-simple.updates.xml"/>
   </update-information>
 </description>
