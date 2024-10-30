@@ -38,6 +38,16 @@ def get_oxt_root(oxt_path, src_dir):
         return src_dir / 'oxt_root', None
 
 
+def update_updates_xml(file_path, new_version):
+    # Update version number.
+    xml_tree = etree.parse(file_path)
+    xml_root = xml_tree.getroot()
+    xml_version = xml_root.find('version', xml_root.nsmap)
+    if xml_version.get('value') != new_version:
+        xml_version.attrib['value'] = new_version
+        file_path.write_bytes(etree.tostring(xml_tree, pretty_print=True))
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -55,12 +65,15 @@ def main():
     # Set variables.
     repo_dir = Path(__file__).parents[1]
     src_dir = dic_path.parent
+    variant = src_dir.name.split('-')[-1]  # "1984" or "simple"
 
     now = datetime.datetime.now()
     yyyy = str(now.year)
     version = f"{now.year}.{now.month}.{now.day}"
     name = dic_path.parent.name
-    # langtag = dic_path.stem
+    # NOTE: lantag is hard-coded b/c of special lang tag given to Sango simple
+    # spellchecker: sg-CM.
+    langtag = 'sg-CF'  # dic_path.stem
     lang = name.split('_')[1]
 
     dist_dir = repo_dir / 'updates'
@@ -109,6 +122,11 @@ def main():
 
     if tempdir:
         tempdir.cleanup()
+
+    update_updates_xml(
+        dist_dir / f"org.sil.{langtag}.spellcheck-{variant}.updates.xml",
+        version
+    )
 
 
 if __name__ == '__main__':
