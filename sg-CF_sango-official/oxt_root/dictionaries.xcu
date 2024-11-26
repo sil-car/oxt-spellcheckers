@@ -3,7 +3,7 @@
     <node o:name="ExtraLanguages">
       <node o:name="sg-CF" o:op="fuse">
         <prop o:name="Name" o:type="xs:string">
-          <value>sango-1984</value>
+          <value>sango-official</value>
         </prop>
         <prop o:name="ScriptType" o:type="xs:int">
           <value>1</value>

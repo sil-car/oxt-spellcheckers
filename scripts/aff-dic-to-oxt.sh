@@ -127,11 +127,11 @@ else # modify generated file
         "description.xml"
 
     # Update display names.
-    display_en="Sango Spell Checker (1984)"
+    display_en="Sango Spell Checker (official)"
     xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
         --update "//ns:description/ns:display-name/ns:name[@lang='en']" --value "$display_en" \
         "description.xml"
-    display_fr="Correcteur d'orthographe, sango (1984)"
+    display_fr="Correcteur d'orthographe, sango (officiel)"
     xmlstarlet edit -L -N ns="http://openoffice.org/extensions/description/2006" \
         --append "//ns:description/ns:display-name/ns:name[@lang='en']" \
             --type elem --name "name" --value "$display_fr" \

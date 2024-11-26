@@ -1,8 +1,8 @@
 <description xmlns="http://openoffice.org/extensions/update/2006" xmlns:dep="https://openoffice.org/extensions/description/2006" xmlns:xlink="http://www.w3.org/1999/xlink">
-  <identifier value="org.sil.sg-CF.spellcheck-1984"/>
-  <version value="2024.10.30"/>
+  <identifier value="org.sil.sg-CF.spellcheck-official"/>
+  <version value="2024.11.26"/>
   <update-download>
-    <src xlink:href="https://raw.githubusercontent.com/sil-car/oxt-spellcheckers/refs/heads/main/updates/dict-sango-1984.oxt"/>
+    <src xlink:href="https://raw.githubusercontent.com/sil-car/oxt-spellcheckers/refs/heads/main/updates/dict-sango-official.oxt"/>
     <!-- Works, but requires waiting on extension to be published at extensions.libreoffice.org. -->
     <!-- <src xlink:href="https://extensions.libreoffice.org/assets/downloads/5022/1729699460/dict-sango-1984-v2024.10.23.oxt" /> -->
     <!-- The following don't work because of redirects/lack of clear filename in the actual URL. -->

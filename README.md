@@ -49,11 +49,11 @@ or from this repo's Releases page.
    # from sg-CF_sango-1948 for official orthography:
    ../scripts/make-sango-dic.py *lexicon.txt *wordlist.txt > sg-CF.dic
    # from sg-CF_sango-simple for more permissive, common orthography
-   ../scripts/make-sango-dic.py -s ../sg-CF_sango-1984/*lexicon.txt ../sg-CF_sango-1984/*wordlist.txt *lexicon.txt *wordlist.txt > sg-CM.dic
+   ../scripts/make-sango-dic.py -s ../sg-CF_sango-official/*lexicon.txt ../sg-CF_sango-official/*wordlist.txt *lexicon.txt *wordlist.txt > sg-CM.dic
    ```
 1. Build/update OXT file(s):
    ```
-   ./scripts/update-oxt.py ./sg-CF_sango-1984/sg-CF.aff    # sango-1984
+   ./scripts/update-oxt.py ./sg-CF_sango-official/sg-CF.aff    # sango-official
    ./scripts/update-oxt.py ./sg-CF_sango-simple/sg-CM.aff  # sango-simple
    ```
 1. Install OXT file: `unopkg add --suppress-license --force ./updates/dict-sango-*`

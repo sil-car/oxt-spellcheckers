@@ -22,7 +22,7 @@ def main():
     parser.add_argument('-s', '--simple', action='store_true')
     args = parser.parse_args()
 
-    # Set whether or not to create simple (non-1984) spellchecker.
+    # Set whether or not to create simple (non-official) spellchecker.
     simple = False
     if args.simple:
         simple = True

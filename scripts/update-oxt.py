@@ -65,7 +65,7 @@ def main():
     # Set variables.
     repo_dir = Path(__file__).parents[1]
     src_dir = dic_path.parent
-    variant = src_dir.name.split('-')[-1]  # "1984" or "simple"
+    variant = src_dir.name.split('-')[-1]  # "official" or "simple"
 
     now = datetime.datetime.now()
     yyyy = str(now.year)
